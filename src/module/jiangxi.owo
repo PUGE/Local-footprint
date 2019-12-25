@@ -1,6 +1,6 @@
 <template lang="pug">
 .jiangxi
-  img.soulless.so-6-0.item-0(width="180", height="99", src="@|home-6-0.png|")
+  img.soulless.so-6-0.item-0.button(width="180", height="99", src="@|home-6-0.png|" o-tap="owo.script.home.goTo('neimeng')")
   img.soulless.so-6-1.item-1(width="186", height="154", src="@|home-6-1.png|")
   img.soulless.so-6-4.item-4(width="279", height="279", src="@|home-6-4.png|")
   img.soulless.so-6-9.item-9(width="269", height="270", src="@|home-6-9.png|")

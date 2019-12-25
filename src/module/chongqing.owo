@@ -6,7 +6,7 @@
   img.soulless.so-7-8.item-8(width="454", height="303", src="@|home-7-8.png|")
   img.soulless.so-7-7.item-7(width="457", height="250", src="@|home-7-7.png|")
   img.soulless.so-7-3.item-3(width="128", height="17", src="@|home-7-3.png|")
-  img.soulless.so-7-0.item-0(width="180", height="99", src="@|home-7-0.png|")
+  img.soulless.so-7-0.item-0.button(width="180", height="99", src="@|home-7-0.png|" o-tap="owo.script.home.goTo('jiangxi')")
   p.soulless.so-7-4.text &emsp;&emsp;习近平来到贫困户谭登周家，从屋外看到屋内，详细询问老两口生活和身体状况。习近平指出，脱贫攻坚明年就要收官，要把工作往深里做、往实里做，重点做好那些尚未脱贫或因病因伤返贫群众的工作，加快完善低保、医保、医疗救助等相关扶持和保障措施，用制度体系保障贫困群众真脱贫、稳脱贫。
   p.soulless.so-7-11.text &emsp;&emsp;习近平来到中益乡小学。学校操场上，小学生们正在开展课外文体活动。看到总书记来了，学生们围拢过来，纷纷问习爷爷好，总书记高兴地同大家交谈，询问他们学习和生活情况。习近平嘱咐学校和老师既要当好老师，又要当好临时家长，把学生教好、管好。要把安全放在第一位，确保学生在学校学、住、吃都安全，让家长们放心。
   p.soulless.so-7-10.text 山城四月，春风和煦，山水透绿，一派生机勃勃。<br>4月15日，习近平深入石柱土家族自治县的学校、农村，实地了解脱贫攻坚工作情况。

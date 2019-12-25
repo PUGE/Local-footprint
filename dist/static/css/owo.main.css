@@ -98,8 +98,8 @@ li {
 
 .start .so-0-10 {
   position: absolute;
-  left: 154px;
-  top: 351px;
+  left: 151px;
+  top: 354px;
   z-index: 2;
   width: 21px;
   height: 65px;
@@ -110,8 +110,8 @@ li {
 
 .start .so-0-9 {
   position: absolute;
-  left: 234px;
-  top: 384px;
+  left: 220px;
+  top: 386px;
   z-index: 3;
   width: 20px;
   height: 43px;
@@ -122,8 +122,8 @@ li {
 
 .start .so-0-8 {
   position: absolute;
-  left: 304px;
-  top: 375px;
+  left: 286px;
+  top: 381px;
   z-index: 4;
   width: 21px;
   height: 43px;
@@ -134,8 +134,8 @@ li {
 
 .start .so-0-7 {
   position: absolute;
-  left: 402px;
-  top: 379px;
+  left: 364px;
+  top: 375px;
   z-index: 5;
   width: 21px;
   height: 65px;
@@ -146,8 +146,8 @@ li {
 
 .start .so-0-6 {
   position: absolute;
-  left: 491px;
-  top: 400px;
+  left: 448px;
+  top: 408px;
   z-index: 6;
   width: 21px;
   height: 43px;
@@ -158,8 +158,8 @@ li {
 
 .start .so-0-5 {
   position: absolute;
-  left: 571px;
-  top: 386px;
+  left: 518px;
+  top: 397px;
   z-index: 7;
   width: 21px;
   height: 43px;
@@ -170,14 +170,206 @@ li {
 
 .start .so-0-4 {
   position: absolute;
-  left: 641px;
-  top: 412px;
+  left: 585px;
+  top: 404px;
   z-index: 8;
   width: 21px;
   height: 43px;
   font-size: 20px;
   line-height: 22px;
   color: #ffffff;
+}
+
+.start .home-line {
+  position: absolute;
+  top: 347px;
+  left: 0;
+}
+
+.start .item-3 {
+  position: absolute;
+  left: 656px;
+  top: 423px;
+  z-index: 8;
+  width: 21px;
+  height: 43px;
+  font-size: 20px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.henan .so-3-6 {
+  position: absolute;
+  left: 110px;
+  top: 0px;
+  z-index: 10;
+}
+
+.henan .so-3-11 {
+  position: absolute;
+  left: 0px;
+  top: 154px;
+  z-index: 5;
+}
+
+.henan .so-3-1 {
+  position: absolute;
+  left: 608px;
+  top: 388px;
+  z-index: 15;
+}
+
+.henan .so-3-0 {
+  position: absolute;
+  left: 1036px;
+  top: 558px;
+  z-index: 16;
+}
+
+.henan .so-3-8 {
+  position: absolute;
+  left: 939px;
+  top: 2px;
+  z-index: 8;
+}
+
+.henan .so-3-7 {
+  position: absolute;
+  left: 1191px;
+  top: 77px;
+  z-index: 9;
+}
+
+.henan .so-3-6 {
+  position: absolute;
+  left: 110px;
+  top: 0px;
+  z-index: 10;
+}
+
+.henan .so-3-11 {
+  position: absolute;
+  left: 0px;
+  top: 154px;
+  z-index: 5;
+}
+
+.henan .so-3-1 {
+  position: absolute;
+  left: 608px;
+  top: 388px;
+  z-index: 15;
+}
+
+.henan .so-3-0 {
+  position: absolute;
+  left: 1036px;
+  top: 558px;
+  z-index: 16;
+}
+
+.henan .so-3-8 {
+  position: absolute;
+  left: 939px;
+  top: 2px;
+  z-index: 8;
+}
+
+.henan .so-3-7 {
+  position: absolute;
+  left: 1191px;
+  top: 77px;
+  z-index: 9;
+}
+
+.henan .so-3-14 {
+  position: absolute;
+  left: 429px;
+  top: 194px;
+  z-index: 2;
+}
+
+.henan .so-3-5 {
+  position: absolute;
+  left: 46px;
+  top: 457px;
+  z-index: 11;
+}
+
+.henan .so-3-10 {
+  position: absolute;
+  left: 249px;
+  top: 5px;
+  font-size: 32px;
+  color: #b47f00;
+  text-align: left;
+}
+
+.henan .so-3-9 {
+  position: absolute;
+  left: 249px;
+  top: 51px;
+  width: 660px;
+  z-index: 7;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.7;
+}
+
+.henan .so-3-13 {
+  position: absolute;
+  left: 452px;
+  top: 176px;
+  z-index: 3;
+  font-size: 22px;
+  color: #b47f00;
+}
+
+.henan .so-3-12 {
+  position: absolute;
+  left: 580px;
+  top: 178px;
+  font-size: 25px;
+  color: #b47f00;
+}
+
+.henan .so-3-15 {
+  position: absolute;
+  left: 428px;
+  top: 231px;
+  z-index: 1;
+  font-size: 16px;
+  line-height: 1.7;
+  width: 500px;
+  color: #000000;
+}
+
+.henan .so-3-4 {
+  position: absolute;
+  left: 69px;
+  top: 439px;
+  z-index: 12;
+  font-size: 22px;
+  color: #b47f00;
+}
+
+.henan .so-3-3 {
+  position: absolute;
+  left: 196px;
+  top: 440px;
+  z-index: 13;
+  font-size: 25px;
+  color: #b47f00;
+}
+
+.henan .so-3-2 {
+  position: absolute;
+  left: 43px;
+  top: 490px;
+  z-index: 14;
+  width: 544px;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.7;
 }
 .shanghai .so-2-11 {
   font-size: 20px;
@@ -633,6 +825,12 @@ li {
   font-size: 16px;
   color: #000000;
 }
+
+.neimeng .next {
+  position: absolute;
+  top: 690px;
+  left: 900px;
+}
 .jiangxi .so-6-0 {
   position: absolute;
   left: 706px;
@@ -1022,7 +1220,7 @@ p.text {
   line-height: 1.7;
 }
 
-.box-1 {
+.henan {
   position: absolute;
   left: 596px;
   top: 306px;
@@ -1030,181 +1228,6 @@ p.text {
   bottom: 2216px;
   width: 1249px;
   height: 657px;
-}
-
-.box-1 .so-3-6 {
-  position: absolute;
-  left: 110px;
-  top: 0px;
-  z-index: 10;
-}
-
-.box-1 .so-3-11 {
-  position: absolute;
-  left: 0px;
-  top: 154px;
-  z-index: 5;
-}
-
-.box-1 .so-3-1 {
-  position: absolute;
-  left: 608px;
-  top: 388px;
-  z-index: 15;
-}
-
-.box-1 .so-3-0 {
-  position: absolute;
-  left: 1036px;
-  top: 558px;
-  z-index: 16;
-}
-
-.box-1 .so-3-8 {
-  position: absolute;
-  left: 939px;
-  top: 2px;
-  z-index: 8;
-}
-
-.box-1 .so-3-7 {
-  position: absolute;
-  left: 1191px;
-  top: 77px;
-  z-index: 9;
-}
-
-.box-1 .so-3-6 {
-  position: absolute;
-  left: 110px;
-  top: 0px;
-  z-index: 10;
-}
-
-.box-1 .so-3-11 {
-  position: absolute;
-  left: 0px;
-  top: 154px;
-  z-index: 5;
-}
-
-.box-1 .so-3-1 {
-  position: absolute;
-  left: 608px;
-  top: 388px;
-  z-index: 15;
-}
-
-.box-1 .so-3-0 {
-  position: absolute;
-  left: 1036px;
-  top: 558px;
-  z-index: 16;
-}
-
-.box-1 .so-3-8 {
-  position: absolute;
-  left: 939px;
-  top: 2px;
-  z-index: 8;
-}
-
-.box-1 .so-3-7 {
-  position: absolute;
-  left: 1191px;
-  top: 77px;
-  z-index: 9;
-}
-
-.box-1 .so-3-14 {
-  position: absolute;
-  left: 429px;
-  top: 194px;
-  z-index: 2;
-}
-
-.box-1 .so-3-5 {
-  position: absolute;
-  left: 46px;
-  top: 457px;
-  z-index: 11;
-}
-
-.box-1 .so-3-10 {
-  position: absolute;
-  left: 249px;
-  top: 5px;
-  font-size: 32px;
-  color: #b47f00;
-  text-align: left;
-}
-
-.box-1 .so-3-9 {
-  position: absolute;
-  left: 249px;
-  top: 51px;
-  width: 660px;
-  z-index: 7;
-  font-size: 16px;
-  color: #000000;
-  line-height: 1.7;
-}
-
-.box-1 .so-3-13 {
-  position: absolute;
-  left: 452px;
-  top: 176px;
-  z-index: 3;
-  font-size: 22px;
-  color: #b47f00;
-}
-
-.box-1 .so-3-12 {
-  position: absolute;
-  left: 580px;
-  top: 178px;
-  font-size: 25px;
-  color: #b47f00;
-}
-
-.box-1 .so-3-15 {
-  position: absolute;
-  left: 428px;
-  top: 231px;
-  z-index: 1;
-  font-size: 16px;
-  line-height: 1.7;
-  width: 500px;
-  color: #000000;
-}
-
-.box-1 .so-3-4 {
-  position: absolute;
-  left: 69px;
-  top: 439px;
-  z-index: 12;
-  font-size: 22px;
-  color: #b47f00;
-}
-
-.box-1 .so-3-3 {
-  position: absolute;
-  left: 196px;
-  top: 440px;
-  z-index: 13;
-  font-size: 25px;
-  color: #b47f00;
-}
-
-.box-1 .so-3-2 {
-  position: absolute;
-  left: 43px;
-  top: 490px;
-  z-index: 14;
-  width: 544px;
-  font-size: 16px;
-  color: #000000;
-  line-height: 1.7;
 }
 
 .start {
@@ -1290,5 +1313,59 @@ p.text {
   bottom: 1234px;
   width: 1376px;
   height: 793px;
+}
+
+.bottom-menu {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 760px;
+  height: 90px;
+  z-index: 99;
+}
+
+.bottom-menu .line {
+  position: absolute;
+  height: 4px;
+  background-color: #fb3621;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+  border-radius: 2px;
+}
+
+.bottom-menu .menu-box {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.bottom-menu .menu-box .item {
+  width: 18px;
+  line-height: 22px;
+  border: 2px solid #fb3621;
+  border-radius: 16px;
+  padding: 10px 5px;
+  background-color: white;
+  z-index: 2;
+  margin: 0 23px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #535353;
+  cursor: pointer;
+}
+
+.bottom-menu .menu-box .item-home {
+  background-color: #ec9632;
+  border-color: #ec9632;
+  color: white;
 }
 
