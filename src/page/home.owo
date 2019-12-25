@@ -14,14 +14,20 @@
     .line
     .menu-box
       .item.item-home(o-tap="owo.script.home.goTo('home')") 首页
-      .item(o-tap="owo.script.home.goTo('jingjinji')") 京津冀
-      .item(o-tap="owo.script.home.goTo('chongqing')") 重庆
-      .item(o-tap="owo.script.home.goTo('jiangxi')") 江西
-      .item(o-tap="owo.script.home.goTo('neimeng')") 内蒙古
-      .item(o-tap="owo.script.home.goTo('gansu')") 甘肃
-      .item(o-tap="owo.script.home.goTo('henan')") 河南
-      .item(o-tap="owo.script.home.goTo('shanghai')") 上海
-      .item(o-tap="owo.script.home.goTo('aomen')") 澳门
+      .item.item-jingjinji(o-tap="owo.script.home.goTo('jingjinji')") 京津冀
+      .item.item-chongqing(o-tap="owo.script.home.goTo('chongqing')") 重庆
+      .item.item-jiangxi(o-tap="owo.script.home.goTo('jiangxi')") 江西
+      .item.item-neimeng(o-tap="owo.script.home.goTo('neimeng')") 内蒙古
+      .item.item-gansu(o-tap="owo.script.home.goTo('gansu')") 甘肃
+      .item.item-henan(o-tap="owo.script.home.goTo('henan')") 河南
+      .item.item-shanghai(o-tap="owo.script.home.goTo('shanghai')") 上海
+      .item.item-aomen(o-tap="owo.script.home.goTo('aomen')") 澳门
+  .text-box
+    img.soulless.so-8-14.item-14.animation-item(width="38", height="36", src="@|home-8-14.png|")
+    img.animation-item.animation-item-2(src="@|animation-2.png|")
+    img.animation-item.animation-item-3(src="@|animation-3.png|")
+    img.animation-item.animation-item-4(src="@|animation-4.png|")
+    img.animation-item.animation-item-6(src="@|animation-6.png|")
 </template>
 
 <script>
@@ -32,15 +38,58 @@
     },
     goTo: function (name) {
       const cityList = {
-        "home": [2350, 1520],
-        "jingjinji": [3750, 1525],
-        "chongqing": [4100, 2560],
-        "jiangxi": [2725, 2550],
+        "home": [2300, 1580],
+        "jingjinji": [3750, 1585],
+        "chongqing": [4140, 2610],
+        "jiangxi": [2725, 2600],
         "neimeng": [1250, 2450],
-        "gansu": [775, 1450],
-        "henan": [1200, 620],
+        "gansu": [775, 1490],
+        "henan": [1200, 660],
         "shanghai": [2650, 580],
         "aomen": [4050, 625]
+      }
+      // 轨迹动画
+      switch (name) {
+        case "jingjinji":
+          owo.query('.so-8-14')[0].classList.remove('path-one')
+          owo.query('.so-8-14')[0].classList.remove('path-two')
+          setTimeout(() => {
+            owo.query('.so-8-14')[0].classList.add('path-one')
+          }, 500)
+          break;
+        case "chongqing":
+          owo.query('.so-8-14')[0].classList.remove('path-one')
+          owo.query('.so-8-14')[0].classList.remove('path-two')
+          setTimeout(() => {
+            owo.query('.so-8-14')[0].classList.add('path-two')
+          }, 0)
+          break
+        case "jiangxi":
+          owo.query('.animation-item-2')[0].classList.add('path-three')
+          setTimeout(() => {
+            owo.query('.animation-item-2')[0].classList.remove('path-three')
+          }, 4000)
+          break;
+        case "neimeng":
+          owo.query('.animation-item-3')[0].classList.add('path-four')
+          setTimeout(() => {
+            owo.query('.animation-item-3')[0].classList.remove('path-four')
+          }, 4000)
+          break;
+        case "gansu":
+          owo.query('.animation-item-4')[0].classList.add('path-five')
+          setTimeout(() => {
+            owo.query('.animation-item-4')[0].classList.remove('path-five')
+          }, 6000)
+          break;
+        case "shanghai":
+          owo.query('.animation-item-6')[0].classList.add('path-seven')
+          setTimeout(() => {
+            owo.query('.animation-item-6')[0].classList.remove('path-seven')
+          }, 6000)
+          break;
+        default:
+          break;
       }
       const screenInfo = owo.tool.getScreenInfo()
       // console.log(screenInfo.clientWidth / 2)
@@ -52,6 +101,12 @@
       y += screenInfo.clientHeight / 2
       this.$el.style.left = x + 'px'
       this.$el.style.top = y + 'px'
+
+      // 更换菜单活跃项目
+      owo.tool.each(owo.query('.menu-box .item'), function (item) {
+        item.classList.remove('active')
+      })
+      owo.query('.menu-box .item-' + name)[0].classList.add('active')
     }
   }
 </script>
@@ -64,7 +119,7 @@
   position: absolute;
   left: 0;
   top: 0;
-  transition: left 1s, top 1s;
+  transition: left 2s, top 2s;
   background-image: url('@|bg.jpg|');
 }
 p.text {
@@ -160,14 +215,14 @@ p.text {
 }
 .bottom-menu {
   position: fixed;
-  bottom: 10px;
-  left: 10px;
+  bottom: 6%;
+  left: 17%;
   width: 760px;
   height: 90px;
   z-index: 99;
   .line {
     position: absolute;
-    height: 4px;
+    height: 2px;
     background-color: #fb3621;
     width: 100%;
     top: 0;
@@ -196,12 +251,79 @@ p.text {
       font-weight: bold;
       color: #535353;
       cursor: pointer;
+      position: relative;
     }
     .item-home {
       background-color: #ec9632;
       border-color: #ec9632;
       color: white;
     }
+    .active {
+      background-color: #fb3621;
+      color: white;
+      border-color: #fb3621;
+    }
+    .active:after {
+      content: url('@|item-bg.png|');
+      position: absolute;
+      left: 7px;
+      margin: auto;
+      top: -25px;
+    }
   }
+}
+
+@keyframes oneAnimation {
+  from {
+    offset-distance: 0%;
+  }
+
+  to {
+    offset-distance: 100%;
+  }
+}
+
+@keyframes oneAnimationHidden {
+  0% {
+    offset-distance: 0%;
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    offset-distance: 100%;
+    opacity: 0;
+  }
+}
+
+.animation-item {
+  offset-distance: 0%;
+}
+.path-one {
+  offset-path: path("M2794,1682c108.78-17.65,213.29-66.35,347-112,128.6-43.9,354.09-50.97,508-105,420.69-147.69,1076.46-11.36,780,369");
+  animation: oneAnimation 2s ease-in-out 0s 1 normal forwards;
+}
+.path-two {
+  offset-path: path("M4426,1837s-67.4,93.79-447,134c-414.75,43.94-551.1,194.43-148,568");
+  animation: oneAnimation 2s ease-in-out 0s 1 normal forwards;
+}
+.path-three {
+  offset-path: path("M3935,2631s462.47,247.98,161,383c-432.6,193.75-808-119-808-119");
+  animation: oneAnimationHidden 2s ease-in-out 0s 1 normal forwards;
+}
+.path-four {
+  offset-path: path("M2241,2400s-163.8,3.04-273,127c-77.46,87.93-178.5,171.27-380,147");
+  animation: oneAnimation 2s ease-in-out 0s 1 normal forwards;
+}
+.path-five {
+  offset-path: path("M612,2193s-108.55-236.5,90-317c152.2-61.71,373.96-101.66,447-128,270.41-97.53,407.69-415.51,124-552-218.06-104.92-615.727-324.606-427-551");
+  animation: oneAnimation 6s ease-in-out 0s 1 normal forwards;
+}
+.path-seven {
+  offset-path: path("M1688,342s482.63-131.329,691,120c152.28,183.674,331.28,506.859,706,487,396.99-21.04,461.68-360.292,683-234");
+  animation: oneAnimation 6s ease-in-out 0s 1 normal forwards;
 }
 </style>

@@ -1067,19 +1067,60 @@ li {
   left: 509px;
   top: 677px;
   z-index: 18;
+}.owo-animation-turn {
+  -webkit-animation: turn 12s linear infinite;
+  animation: turn 12s linear infinite;
 }
+
+@-webkit-keyframes turn {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(90deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+
+  75% {
+    -webkit-transform: rotate(270deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes turn {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  25% {
+    -webkit-transform: rotate(90deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+
+  75% {
+    -webkit-transform: rotate(270deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
 .jingjinji .so-8-3 {
   position: absolute;
   left: 1156px;
   top: 694px;
   z-index: 14;
-}
-
-.jingjinji .so-8-14 {
-  position: absolute;
-  left: 1338px;
-  top: 323px;
-  z-index: 3;
 }
 
 .jingjinji .so-8-13 {
@@ -1211,8 +1252,8 @@ li {
   position: absolute;
   left: 0;
   top: 0;
-  -webkit-transition: left 1s, top 1s;
-  transition: left 1s, top 1s;
+  -webkit-transition: left 2s, top 2s;
+  transition: left 2s, top 2s;
   background-image: url('../resource/bg.jpg');
 }
 
@@ -1317,8 +1358,8 @@ p.text {
 
 .bottom-menu {
   position: fixed;
-  bottom: 10px;
-  left: 10px;
+  bottom: 6%;
+  left: 17%;
   width: 760px;
   height: 90px;
   z-index: 99;
@@ -1326,7 +1367,7 @@ p.text {
 
 .bottom-menu .line {
   position: absolute;
-  height: 4px;
+  height: 2px;
   background-color: #fb3621;
   width: 100%;
   top: 0;
@@ -1361,11 +1402,118 @@ p.text {
   font-weight: bold;
   color: #535353;
   cursor: pointer;
+  position: relative;
 }
 
 .bottom-menu .menu-box .item-home {
   background-color: #ec9632;
   border-color: #ec9632;
   color: white;
+}
+
+.bottom-menu .menu-box .active {
+  background-color: #fb3621;
+  color: white;
+  border-color: #fb3621;
+}
+
+.bottom-menu .menu-box .active:after {
+  content: url('../resource/item-bg.png');
+  position: absolute;
+  left: 7px;
+  margin: auto;
+  top: -25px;
+}
+
+@-webkit-keyframes oneAnimation {
+  from {
+    offset-distance: 0%;
+  }
+
+  to {
+    offset-distance: 100%;
+  }
+}
+
+@keyframes oneAnimation {
+  from {
+    offset-distance: 0%;
+  }
+
+  to {
+    offset-distance: 100%;
+  }
+}
+
+@-webkit-keyframes oneAnimationHidden {
+  0% {
+    offset-distance: 0%;
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    offset-distance: 100%;
+    opacity: 0;
+  }
+}
+
+@keyframes oneAnimationHidden {
+  0% {
+    offset-distance: 0%;
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    offset-distance: 100%;
+    opacity: 0;
+  }
+}
+
+.animation-item {
+  offset-distance: 0%;
+}
+
+.path-one {
+  offset-path: path("M2794,1682c108.78-17.65,213.29-66.35,347-112,128.6-43.9,354.09-50.97,508-105,420.69-147.69,1076.46-11.36,780,369");
+  -webkit-animation: oneAnimation 2s ease-in-out 0s 1 normal forwards;
+          animation: oneAnimation 2s ease-in-out 0s 1 normal forwards;
+}
+
+.path-two {
+  offset-path: path("M4426,1837s-67.4,93.79-447,134c-414.75,43.94-551.1,194.43-148,568");
+  -webkit-animation: oneAnimation 2s ease-in-out 0s 1 normal forwards;
+          animation: oneAnimation 2s ease-in-out 0s 1 normal forwards;
+}
+
+.path-three {
+  offset-path: path("M3935,2631s462.47,247.98,161,383c-432.6,193.75-808-119-808-119");
+  -webkit-animation: oneAnimationHidden 2s ease-in-out 0s 1 normal forwards;
+          animation: oneAnimationHidden 2s ease-in-out 0s 1 normal forwards;
+}
+
+.path-four {
+  offset-path: path("M2241,2400s-163.8,3.04-273,127c-77.46,87.93-178.5,171.27-380,147");
+  -webkit-animation: oneAnimation 2s ease-in-out 0s 1 normal forwards;
+          animation: oneAnimation 2s ease-in-out 0s 1 normal forwards;
+}
+
+.path-five {
+  offset-path: path("M612,2193s-108.55-236.5,90-317c152.2-61.71,373.96-101.66,447-128,270.41-97.53,407.69-415.51,124-552-218.06-104.92-615.727-324.606-427-551");
+  -webkit-animation: oneAnimation 6s ease-in-out 0s 1 normal forwards;
+          animation: oneAnimation 6s ease-in-out 0s 1 normal forwards;
+}
+
+.path-seven {
+  offset-path: path("M1688,342s482.63-131.329,691,120c152.28,183.674,331.28,506.859,706,487,396.99-21.04,461.68-360.292,683-234");
+  -webkit-animation: oneAnimation 6s ease-in-out 0s 1 normal forwards;
+          animation: oneAnimation 6s ease-in-out 0s 1 normal forwards;
 }
 

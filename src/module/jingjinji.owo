@@ -1,9 +1,9 @@
 <template lang="pug">
 .jingjinji
   img.soulless.so-8-3.item-3.button(width="180" height="99" src="@|home-8-3.png|" o-tap="owo.script.home.goTo('chongqing')")
-  img.soulless.so-8-14.item-14(width="38", height="36", src="@|home-8-14.png|")
-  img.soulless.so-8-13.item-13(width="95", height="94", src="@|home-8-13.png|")
-  img.soulless.so-8-15.item-15(width="78", height="73", src="@|home-8-15.png|")
+  
+  img.soulless.so-8-13.item-13(width="95", height="94", src="@|home-8-13.png|" o-animation="turn")
+  img.soulless.so-8-15.item-15(width="78", height="73", src="@|home-8-15.png|" o-animation="turn")
   img.soulless.so-8-0.item-0(width="127", height="102", src="@|home-8-0.png|")
   img.soulless.so-8-6.item-6(width="125", height="16", src="@|home-8-6.png|")
   img.soulless.so-8-5.item-5(width="126", height="16", src="@|home-8-5.png|")
@@ -25,12 +25,6 @@
   left: 1156px;
   top: 694px;
   z-index: 14;
-}
-.so-8-14 {
-  position: absolute;
-  left: 1338px;
-  top: 323px;
-  z-index: 3;
 }
 .so-8-13 {
   position: absolute;

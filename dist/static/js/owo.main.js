@@ -1,4 +1,4 @@
-// Wed Dec 25 2019 11:11:48 GMT+0800 (GMT+08:00)
+// Wed Dec 25 2019 17:16:21 GMT+0800 (GMT+08:00)
 var owo = {tool: {},state: {},};
 /* 方法合集 */
 var _owo = {}
@@ -263,6 +263,16 @@ owo.tool.getScreenInfo = function () {
     ratio: window.innerWidth / window.innerHeight,
     // 缩放比例
     devicePixelRatio: window.devicePixelRatio || 1
+  }
+}
+/**
+ * 遍历对象
+ * @return {object} 屏幕信息
+ */
+
+owo.tool.each = function (obj, fn) {
+  for (var ind = 0; ind < obj.length; ind++) {
+    fn(obj[ind], ind)
   }
 }
 
