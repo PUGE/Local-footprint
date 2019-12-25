@@ -1,0 +1,134 @@
+[2019-12-25T09:25:21.355] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-25T09:25:21.358] [INFO] default - 程序运行目录: D:\work\地方足迹
+[2019-12-25T09:25:21.358] [INFO] default - 首次启动!
+[2019-12-25T09:25:21.358] [INFO] default - 生成版本号: ew31dzm4xg
+[2019-12-25T09:25:21.379] [INFO] default - 清理资源文件夹: D:\work\地方足迹\dist\static
+[2019-12-25T09:25:21.380] [INFO] default - 文件夹不存在: D:\work\地方足迹\dist\static
+[2019-12-25T09:25:21.380] [INFO] default - 创建文件夹: D:\work\地方足迹\dist\static
+[2019-12-25T09:25:21.380] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-25T09:25:21.380] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-25T09:25:21.380] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-25T09:25:21.381] [INFO] default - 开始处理模块: home
+[2019-12-25T09:25:22.614] [INFO] default - 开始处理模块: start
+[2019-12-25T09:25:22.628] [DEBUG] default - 缓存模板: start./src/module/start.owo
+[2019-12-25T09:25:22.690] [DEBUG] default - 模块start处理用时: 77 毫秒!
+[2019-12-25T09:25:22.690] [INFO] default - 开始处理模块: shanghai
+[2019-12-25T09:25:22.705] [DEBUG] default - 缓存模板: shanghai./src/module/shanghai.owo
+[2019-12-25T09:25:22.716] [DEBUG] default - 模块shanghai处理用时: 26 毫秒!
+[2019-12-25T09:25:22.716] [INFO] default - 开始处理模块: aomen
+[2019-12-25T09:25:22.724] [DEBUG] default - 缓存模板: aomen./src/module/aomen.owo
+[2019-12-25T09:25:22.729] [DEBUG] default - 模块aomen处理用时: 13 毫秒!
+[2019-12-25T09:25:22.729] [INFO] default - 开始处理模块: gansu
+[2019-12-25T09:25:22.741] [DEBUG] default - 缓存模板: gansu./src/module/gansu.owo
+[2019-12-25T09:25:22.749] [DEBUG] default - 模块gansu处理用时: 20 毫秒!
+[2019-12-25T09:25:22.750] [INFO] default - 开始处理模块: neimeng
+[2019-12-25T09:25:22.763] [DEBUG] default - 缓存模板: neimeng./src/module/neimeng.owo
+[2019-12-25T09:25:22.773] [DEBUG] default - 模块neimeng处理用时: 24 毫秒!
+[2019-12-25T09:25:22.773] [INFO] default - 开始处理模块: jiangxi
+[2019-12-25T09:25:22.784] [DEBUG] default - 缓存模板: jiangxi./src/module/jiangxi.owo
+[2019-12-25T09:25:22.793] [DEBUG] default - 模块jiangxi处理用时: 20 毫秒!
+[2019-12-25T09:25:22.793] [INFO] default - 开始处理模块: chongqing
+[2019-12-25T09:25:22.804] [DEBUG] default - 缓存模板: chongqing./src/module/chongqing.owo
+[2019-12-25T09:25:22.811] [DEBUG] default - 模块chongqing处理用时: 18 毫秒!
+[2019-12-25T09:25:22.811] [INFO] default - 开始处理模块: jingjinji
+[2019-12-25T09:25:22.826] [DEBUG] default - 缓存模板: jingjinji./src/module/jingjinji.owo
+[2019-12-25T09:25:22.832] [DEBUG] default - 模块jingjinji处理用时: 21 毫秒!
+[2019-12-25T09:25:22.835] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-25T09:25:22.845] [DEBUG] default - 页面home处理用时: 1463 毫秒!
+[2019-12-25T09:25:22.846] [INFO] default - 文件夹不存在: D:/work/地方足迹/dist/static/resource
+[2019-12-25T09:25:22.846] [INFO] default - 创建文件夹: D:/work/地方足迹/dist/static/resource
+[2019-12-25T09:25:22.847] [DEBUG] default - 处理资源:  [ 'D:/work/地方足迹/src/resource/bg.jpg' ]
+[2019-12-25T09:25:22.847] [DEBUG] default - 资源目录:  D:/work/地方足迹/dist/static/resource
+[2019-12-25T09:25:22.849] [DEBUG] default - css中的资源处理完毕!
+[2019-12-25T09:25:24.357] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-25T09:25:24.410] [INFO] default - 文件夹不存在: D:\work\地方足迹\dist\static\css
+[2019-12-25T09:25:24.410] [INFO] default - 创建文件夹: D:\work\地方足迹\dist\static\css
+[2019-12-25T09:25:24.410] [INFO] default - 开始处理附属css中的资源
+[2019-12-25T09:25:24.411] [INFO] default - 附属css中的资源处理完毕!
+[2019-12-25T09:25:24.411] [INFO] default - 处理字体: {}
+[2019-12-25T09:25:25.233] [INFO] default - 使用postcss处理完毕! 用时: 876 毫秒
+[2019-12-25T09:25:25.234] [INFO] default - 正在处理script!
+[2019-12-25T09:25:28.304] [INFO] default - 工程中只有一个页面!
+[2019-12-25T09:25:28.305] [INFO] default - js中的资源处理完毕!
+[2019-12-25T09:25:28.306] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-25T09:25:28.306] [DEBUG] default - 外部脚本数量: 3
+[2019-12-25T09:25:28.306] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-12-25T09:25:28.306] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-12-25T09:25:28.306] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-12-25T09:25:28.306] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-12-25T09:25:28.306] [DEBUG] default - 处理脚本: main
+[2019-12-25T09:25:28.306] [INFO] default - 读取文件: D:\work\地方足迹\src\main.js
+[2019-12-25T09:25:28.306] [DEBUG] default - 输出scriptData
+[2019-12-25T09:25:28.308] [DEBUG] default - 准备输出html!
+[2019-12-25T09:25:28.310] [DEBUG] default - 忽略文件: D:/work/地方足迹/src/resource/home-2-4.png
+[2019-12-25T09:25:28.310] [DEBUG] default - 忽略文件: D:/work/地方足迹/src/resource/home-2-4.png
+[2019-12-25T09:25:28.312] [DEBUG] default - 处理资源:  [ 'D:/work/地方足迹/src/resource/home-3-6.png',
+  'D:/work/地方足迹/src/resource/home-3-11.png',
+  'D:/work/地方足迹/src/resource/home-3-1.png',
+  'D:/work/地方足迹/src/resource/home-3-0.png',
+  'D:/work/地方足迹/src/resource/home-3-8.png',
+  'D:/work/地方足迹/src/resource/home-3-7.png',
+  'D:/work/地方足迹/src/resource/home-3-14.png',
+  'D:/work/地方足迹/src/resource/home-3-5.png',
+  'D:/work/地方足迹/src/resource/home-0-2.png',
+  'D:/work/地方足迹/src/resource/home-0-0.png',
+  'D:/work/地方足迹/src/resource/home-0-1.png',
+  'D:/work/地方足迹/src/resource/home-2-11.png',
+  'D:/work/地方足迹/src/resource/home-2-1.png',
+  'D:/work/地方足迹/src/resource/home-2-2.png',
+  'D:/work/地方足迹/src/resource/home-2-0.png',
+  'D:/work/地方足迹/src/resource/home-2-8.png',
+  'D:/work/地方足迹/src/resource/home-2-4.png',
+  'D:/work/地方足迹/src/resource/home-1-0.png',
+  'D:/work/地方足迹/src/resource/home-1-5.png',
+  'D:/work/地方足迹/src/resource/home-1-1.png',
+  'D:/work/地方足迹/src/resource/home-1-2.png',
+  'D:/work/地方足迹/src/resource/home-1-4.png',
+  'D:/work/地方足迹/src/resource/home-4-1.png',
+  'D:/work/地方足迹/src/resource/home-4-13.png',
+  'D:/work/地方足迹/src/resource/home-4-11.png',
+  'D:/work/地方足迹/src/resource/home-4-7.png',
+  'D:/work/地方足迹/src/resource/home-4-12.png',
+  'D:/work/地方足迹/src/resource/home-4-2.png',
+  'D:/work/地方足迹/src/resource/home-4-3.png',
+  'D:/work/地方足迹/src/resource/home-4-0.png',
+  'D:/work/地方足迹/src/resource/home-5-3.png',
+  'D:/work/地方足迹/src/resource/home-5-2.png',
+  'D:/work/地方足迹/src/resource/home-5-1.png',
+  'D:/work/地方足迹/src/resource/home-5-13.png',
+  'D:/work/地方足迹/src/resource/home-5-12.png',
+  'D:/work/地方足迹/src/resource/home-5-11.png',
+  'D:/work/地方足迹/src/resource/home-5-7.png',
+  'D:/work/地方足迹/src/resource/home-6-0.png',
+  'D:/work/地方足迹/src/resource/home-6-1.png',
+  'D:/work/地方足迹/src/resource/home-6-4.png',
+  'D:/work/地方足迹/src/resource/home-6-9.png',
+  'D:/work/地方足迹/src/resource/home-6-12.png',
+  'D:/work/地方足迹/src/resource/home-7-1.png',
+  'D:/work/地方足迹/src/resource/home-7-12.png',
+  'D:/work/地方足迹/src/resource/home-7-9.png',
+  'D:/work/地方足迹/src/resource/home-7-8.png',
+  'D:/work/地方足迹/src/resource/home-7-7.png',
+  'D:/work/地方足迹/src/resource/home-7-3.png',
+  'D:/work/地方足迹/src/resource/home-7-0.png',
+  'D:/work/地方足迹/src/resource/home-8-3.png',
+  'D:/work/地方足迹/src/resource/home-8-14.png',
+  'D:/work/地方足迹/src/resource/home-8-13.png',
+  'D:/work/地方足迹/src/resource/home-8-15.png',
+  'D:/work/地方足迹/src/resource/home-8-0.png',
+  'D:/work/地方足迹/src/resource/home-8-6.png',
+  'D:/work/地方足迹/src/resource/home-8-5.png',
+  'D:/work/地方足迹/src/resource/home-8-11.png',
+  'D:/work/地方足迹/src/resource/home-8-10.png' ]
+[2019-12-25T09:25:28.312] [DEBUG] default - 资源目录:  D:/work/地方足迹/dist/static/resource
+[2019-12-25T09:25:28.316] [INFO] default - 文件夹不存在: D:\work\地方足迹\dist\static\js
+[2019-12-25T09:25:28.317] [INFO] default - 创建文件夹: D:\work\地方足迹\dist\static\js
+[2019-12-25T09:25:28.317] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-25T09:25:28.318] [INFO] default - 编译结束!
+[2019-12-25T09:25:28.319] [INFO] default - 发送页面需要刷新命令!
+[2019-12-25T09:25:28.341] [INFO] default - 写入文件: D:\work\地方足迹\dist\static\css\owo.main.css
+[2019-12-25T09:25:28.373] [INFO] default - 读取成功: D:\work\地方足迹\src\main.js
+[2019-12-25T09:25:28.374] [INFO] default - 读取成功: D:\work\地方足迹\src\main.css
+[2019-12-25T09:25:28.375] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-25T09:25:52.928] [INFO] default - 写入文件: D:\work\地方足迹\dist\static\js\main.js
+[2019-12-25T09:25:52.933] [INFO] default - 写入文件: D:\work\地方足迹\dist\static\css\main.css

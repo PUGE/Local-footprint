@@ -1,0 +1,131 @@
+<template lang="pug">
+.jiangxi
+  img.soulless.so-6-0.item-0(width="180", height="99", src="@|home-6-0.png|")
+  img.soulless.so-6-1.item-1(width="186", height="154", src="@|home-6-1.png|")
+  img.soulless.so-6-4.item-4(width="279", height="279", src="@|home-6-4.png|")
+  img.soulless.so-6-9.item-9(width="269", height="270", src="@|home-6-9.png|")
+  img.soulless.so-6-12.item-12(width="128", height="102", src="@|home-6-12.png|")
+  img.soulless.so-6-7.item-7(width="128", height="17", src="@|home-2-4.png|")
+  img.soulless.so-6-2.item-2(width="128", height="17", src="@|home-2-4.png|")
+  p.soulless.so-6-13.text &emsp;&emsp;初夏时节，赣江两岸郁郁葱葱，欣欣向荣。<br>5月20日，习近平深入赣州市的企业、农村、革命纪念馆，就经济社会发展进行考察调研，实地了解革命老区脱贫攻坚和推动中部地区崛起工作进展情况。
+  p.soulless.so-6-10.text &emsp;&emsp;20日，习近平转乘火车来到于都县，在中央红军长征出发纪念馆在纪念馆一楼，习近平会见了于都县的红军后代、革命烈士家属代表。习近平动情地说，现在国家发展了，人民生活改善了，我们要饮水思源，不能忘记革命先辈、革命先烈，不能忘记革命老区的父老乡亲。
+  p.soulless.so-6-5.text &emsp;&emsp;习近平来到梓山镇潭头村，察看村容村貌。习近平同孙观发一家和当地镇、村干部围坐在一起拉家常，关切询问他家收入怎么样、儿子儿媳在哪里就业、孩子在哪里上学、孩子在学校吃得好不好，家里还有什么困难和愿望。
+  p.soulless.so-6-14.item-14 江西考察
+  p.soulless.so-6-8.item-8 5月20日
+  p.soulless.so-6-11.item-11 会见了红军后代、革命烈士家属代表
+  p.soulless.so-6-3.item-3 5月20日
+  p.soulless.so-6-6.item-6 与苏区的父老乡亲拉家常
+
+</template>
+
+<style lang="less">
+.so-6-0 {
+  position: absolute;
+  left: 706px;
+  top: 687px;
+  z-index: 15;
+}
+.so-6-1 {
+  position: absolute;
+  left: 795px;
+  top: 35px;
+  z-index: 14;
+}
+.so-6-4 {
+  position: absolute;
+  left: 0px;
+  top: 422px;
+  z-index: 11;
+}
+.so-6-9 {
+  position: absolute;
+  left: 578px;
+  top: 173px;
+  z-index: 6;
+}
+.so-6-12 {
+  position: absolute;
+  left: 16px;
+  top: 0px;
+  z-index: 3;
+}
+.so-6-7 {
+  position: absolute;
+  left: 22px;
+  top: 197px;
+  z-index: 8;
+}
+.so-6-2 {
+  position: absolute;
+  left: 327px;
+  top: 470px;
+  z-index: 13;
+}
+.so-6-13 {
+  position: absolute;
+  left: 166px;
+  top: 66px;
+  z-index: 2;
+  width: 623px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+.so-6-10 {
+  position: absolute;
+  left: 21px;
+  top: 287px;
+  z-index: 5;
+  width: 528px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+.so-6-5 {
+  position: absolute;
+  left: 325px;
+  top: 560px;
+  z-index: 10;
+  width: 542px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+.so-6-14 {
+  position: absolute;
+  left: 169px;
+  top: 14px;
+  z-index: 1;
+  font-size: 33px;
+  color: rgba(95, 138, 16, 1.00);
+}
+.so-6-8 {
+  position: absolute;
+  left: 46px;
+  top: 180px;
+  z-index: 7;
+  font-size: 22px;
+  color: rgba(95, 138, 16, 1.00);
+}
+.so-6-11 {
+  position: absolute;
+  left: 18px;
+  top: 235px;
+  z-index: 4;
+  font-size: 25px;
+  color: rgba(95, 138, 16, 1.00);
+}
+.so-6-3 {
+  position: absolute;
+  left: 351px;
+  top: 453px;
+  z-index: 12;
+  font-size: 22px;
+  color: rgba(95, 138, 16, 1.00);
+}
+.so-6-6 {
+  position: absolute;
+  left: 323px;
+  top: 508px;
+  z-index: 9;
+  font-size: 25px;
+  color: rgba(95, 138, 16, 1.00);
+}
+</style>

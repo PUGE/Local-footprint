@@ -1,0 +1,90 @@
+<template lang="pug">
+.aomen
+  img.soulless.so-1-0.item-0(width="118", height="81", src="@|home-1-0.png|")
+  img.soulless.so-1-5.item-5(width="117", height="93", src="@|home-1-5.png|")
+  img.soulless.so-1-1.item-1(width="525", height="374", src="@|home-1-1.png|")
+  img.soulless.so-1-2.button(width="180", height="99", src="@|home-1-2.png|" o-tap="owo.script.home.goTo(2350, 1520)")
+  img.soulless.so-1-4.item-4(width="129", height="16", src="@|home-1-4.png|")
+  p.soulless.so-1-7.item-7 澳门
+  p.soulless.so-1-6.text &emsp;&emsp;12月19日上午，国家主席习近平位于澳门黑沙环的政府综合服务中心和濠江中学附属英才学校，同澳门市民和师生亲切交流。
+  p.soulless.so-1-3.item-3 12月19日
+  p.soulless.so-1-9.item-9 给学生上了一堂爱国主义教育课
+  p.soulless.so-1-8.text &emsp;&emsp;在濠江中学附属英才学校观摩以“‘一国两制’与澳门”为题的中国历史公开课后，习近平走到学生中间即席发表重要讲话。他指出，爱国主义教育兹事体大，希望特别行政区政府教育部门和学校担负起主体责任，在已有基础上再接再厉，把爱国主义教育工作做得更好。相信澳门青年人必将成为有为的一代、值得骄傲的一代，成长为澳门和国家的栋梁之才。
+
+</template>
+
+<style lang="less">
+.so-1-0 {
+  position: absolute;
+  left: 994px;
+  top: 64px;
+  z-index: 10;
+}
+.so-1-5 {
+  position: absolute;
+  left: 188px;
+  top: 0px;
+  z-index: 5;
+}
+.so-1-1 {
+  position: absolute;
+  left: 0px;
+  top: 141px;
+  z-index: 9;
+}
+.so-1-2 {
+  position: absolute;
+  left: 872px;
+  top: 494px;
+  z-index: 8;
+}
+.so-1-4 {
+  position: absolute;
+  left: 557px;
+  top: 216px;
+  z-index: 6;
+}
+.so-1-7 {
+  position: absolute;
+  left: 333px;
+  top: 10px;
+  z-index: 3;
+  font-size: 33px;
+  color: rgba(56, 121, 95, 1.00);
+}
+.so-1-6 {
+  position: absolute;
+  left: 334px;
+  top: 56px;
+  z-index: 4;
+  width: 640px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+.so-1-3 {
+  position: absolute;
+  left: 582px;
+  top: 198px;
+  z-index: 7;
+  font-size: 22px;
+  color: rgba(56, 121, 95, 1.00);
+}
+.so-1-9 {
+  position: absolute;
+  left: 558px;
+  top: 245px;
+  font-size: 25px;
+  color: rgba(56, 121, 95, 1.00);
+}
+.so-1-8 {
+  position: absolute;
+  left: 557px;
+  top: 292px;
+  z-index: 2;
+  width: 511px;
+  height: 145px;
+  font-family: 'FZLTHPro--GB1-4';
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+</style>

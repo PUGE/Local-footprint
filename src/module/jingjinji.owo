@@ -1,0 +1,144 @@
+<template lang="pug">
+.jingjinji
+  img.soulless.so-8-3.item-3(width="180", height="99", src="@|home-8-3.png|")
+  img.soulless.so-8-14.item-14(width="38", height="36", src="@|home-8-14.png|")
+  img.soulless.so-8-13.item-13(width="95", height="94", src="@|home-8-13.png|")
+  img.soulless.so-8-15.item-15(width="78", height="73", src="@|home-8-15.png|")
+  img.soulless.so-8-0.item-0(width="127", height="102", src="@|home-8-0.png|")
+  img.soulless.so-8-6.item-6(width="125", height="16", src="@|home-8-6.png|")
+  img.soulless.so-8-5.item-5(width="126", height="16", src="@|home-8-5.png|")
+  img.soulless.so-8-11.item-11(width="577", height="313", src="@|home-8-11.png|")
+  img.soulless.so-8-10.item-10(width="544", height="309", src="@|home-8-10.png|")
+  p.soulless.so-8-1.text &emsp;&emsp;隆冬时节的华北大地，寒气袭人，滴水成冰。<br>1月16日至18日，习近平深入河北雄安新区、天津、北京，实地了解京津冀协同发展情况。
+  p.soulless.so-8-16.text &emsp;&emsp;习近平来到河北雄安新区考察调研，在河北雄安新区规划展示中心，通过大屏幕连线京雄城际铁路雄安站建设工地现场。现场施工人员热烈鼓掌，向总书记问好。<br>        习近平说：“现在是数九寒冬、天寒地冻，但我们的铁路建设者仍然辛勤劳动着。在此，我代表党中央，向你们并通过你们向全国所有的铁路建设者、劳动者们致以亲切的问候和良好的祝愿！”
+  p.soulless.so-8-12.text &emsp;&emsp;上午，在社区志愿服务展馆，习近平同志愿者们亲切交流。习近平为社区志愿者们点赞，称赞他们是为社会作出贡献的前行者、引领者。习近平强调，志愿服务是社会文明进步的重要标志，是广大志愿者奉献爱心的重要渠道。要为志愿服务搭建更多平台，更好发挥志愿服务在社会治理中的积极作用。
+  p.soulless.so-8-2.item-2 京津冀考察
+  p.soulless.so-8-7.item-7 1月16日
+  p.soulless.so-8-9.item-9 向铁路建设者致以亲切的问候
+  p.soulless.so-8-4.item-4 1月17日 
+  p.soulless.so-8-8.item-8 为社区志愿者们点赞
+</template>
+
+<style lang="less">
+.so-8-3 {
+  position: absolute;
+  left: 1156px;
+  top: 694px;
+  z-index: 14;
+}
+.so-8-14 {
+  position: absolute;
+  left: 1338px;
+  top: 323px;
+  z-index: 3;
+}
+.so-8-13 {
+  position: absolute;
+  left: 1151px;
+  top: 84px;
+  z-index: 4;
+}
+.so-8-15 {
+  position: absolute;
+  left: 1087px;
+  top: 46px;
+  z-index: 2;
+}
+.so-8-0 {
+  position: absolute;
+  left: 234px;
+  top: 0px;
+  z-index: 17;
+}
+.so-8-6 {
+  position: absolute;
+  left: 69px;
+  top: 545px;
+  z-index: 11;
+}
+.so-8-5 {
+  position: absolute;
+  left: 700px;
+  top: 543px;
+  z-index: 12;
+}
+.so-8-1 {
+  position: absolute;
+  left: 385px;
+  top: 56px;
+  z-index: 16;
+  width: 623px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+.so-8-16 {
+  position: absolute;
+  left: 36px;
+  top: 582px;
+  z-index: 1;
+  width: 522px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+.so-8-12 {
+  position: absolute;
+  left: 620px;
+  top: 582px;
+  z-index: 5;
+  width: 543px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+.so-8-2 {
+  position: absolute;
+  left: 385px;
+  top: 7px;
+  z-index: 15;
+  font-size: 33px;
+  color: rgba(87, 150, 210, 1.00);
+}
+.so-8-7 {
+  position: absolute;
+  left: 94px;
+  top: 527px;
+  z-index: 10;
+  font-size: 22px;
+  color: rgba(87, 150, 210, 1.00);
+}
+.so-8-9 {
+  position: absolute;
+  left: 216px;
+  top: 527px;
+  z-index: 8;
+  font-size: 25px;
+  color: rgba(87, 150, 210, 1.00);
+}
+.so-8-4 {
+  position: absolute;
+  left: 726px;
+  top: 525px;
+  z-index: 13;
+  font-size: 22px;
+  color: rgba(87, 150, 210, 1.00);
+}
+.so-8-8 {
+  position: absolute;
+  left: 852px;
+  top: 527px;
+  z-index: 9;
+  font-size: 25px;
+  color: rgba(87, 150, 210, 1.00);
+}
+.so-8-11 {
+  position: absolute;
+  left: 0px;
+  top: 175px;
+  z-index: 6;
+}
+.so-8-10 {
+  position: absolute;
+  left: 616px;
+  top: 184px;
+  z-index: 7;
+}
+</style>

@@ -1,0 +1,308 @@
+<template lang="pug">
+.home
+  //- 月份标签
+  .box-1
+    img.soulless.so-3-6.item-6(width="105", height="84", src="@|home-3-6.png|")
+    img.soulless.so-3-11.item-11(width="387", height="249", src="@|home-3-11.png|")
+    img.soulless.so-3-1.item-1(width="393", height="262", src="@|home-3-1.png|")
+    img.soulless.so-3-0.item-0(width="180", height="99", src="@|home-3-0.png|")
+    img.soulless.so-3-8.item-8(width="127", height="128", src="@|home-3-8.png|")
+    img.soulless.so-3-7.item-7(width="58", height="53", src="@|home-3-7.png|")
+    img.soulless.so-3-14.item-14(width="129", height="16", src="@|home-3-14.png|")
+    img.soulless.so-3-5.item-5(width="129", height="16", src="@|home-3-5.png|")
+    //- 文字内容
+    p.soulless.so-3-10.item-10 河南考察
+    p.soulless.so-3-9.text 金秋时节，中原大地洋溢着丰收的喜悦，到处生机盎然。<br>9月16日至18日，习近平在河南先后来到信阳、郑州等地，深入革命老区、农村、企业等，就经济社会发展和“不忘初心、牢记使命”主题教育情况进行考察调研。
+    p.soulless.so-3-13.item-13 9月16日
+    p.soulless.so-3-12.item-12 同民宿店店主一家亲切交谈
+    p.soulless.so-3-15.text &emsp;&emsp;下午，习近平乘车来到新县田铺乡田铺大塆考察调研。在“老家寒舍”民宿店，习近平仔细察看服务设施，同店主韩光莹一家围坐在一起交谈。韩光莹告诉总书记，他是红军后代、革命烈士家属，近年来靠乡村旅游实现了增收，还带动乡亲们发展民宿走上致富路。
+    p.soulless.so-3-4.item-4 9月17日
+    p.soulless.so-3-3.item-3 实地察看油茶树种植和挂果情况
+    p.soulless.so-3-2.text &emsp;&emsp;上午，习近平来到光山县槐店乡司马光油茶园考察调研。在油茶园展厅，习近平仔细了解光山县发展油茶产业、推动脱贫整体情况。天空飘着毛毛细雨，油茶园绿意更浓。习近平同正在劳作的村民和管理人员交流，实地察看油茶树种植和挂果情况，询问乡亲们家庭、务工和收入情况。大家告诉总书记，近年来，通过发展油茶种植加工产业，贫困户摆脱了贫困，村民过上了好日子。
+  plug(_src="./src/module/start.owo" _name="start")
+  plug(_src="./src/module/shanghai.owo" _name="shanghai")
+  plug(_src="./src/module/aomen.owo" _name="aomen")
+  plug(_src="./src/module/gansu.owo" _name="gansu")
+  plug(_src="./src/module/neimeng.owo" _name="neimeng")
+  plug(_src="./src/module/jiangxi.owo" _name="jiangxi")
+  plug(_src="./src/module/chongqing.owo" _name="chongqing")
+  plug(_src="./src/module/jingjinji.owo" _name="jingjinji")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      // owo.script.home.goTo(1200, 620)
+      owo.script.home.goTo(2350, 1520)
+    },
+    goTo: function (x, y) {
+      const screenInfo = owo.tool.getScreenInfo()
+      console.log(screenInfo.clientWidth / 2)
+      // 转换为负数
+      x = -Number(x)
+      y = -Number(y)
+      // 减去屏幕一半大小
+      x += screenInfo.clientWidth / 2
+      y += screenInfo.clientHeight / 2
+      this.$el.style.left = x + 'px'
+      this.$el.style.top = y + 'px'
+    }
+  }
+</script>
+
+
+<style lang="less">
+.home {
+  width: 5036px;
+  height: 3179px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: left 1s, top 1s;
+  background-image: url('@|bg.jpg|');
+}
+p.text {
+  line-height: 1.7;
+}
+.box-1 {
+  position: absolute;
+  left: 596px;
+  top: 306px;
+  right: 3218px;
+  bottom: 2216px;
+  width: 1249px;
+  height: 657px;
+  .so-3-6 {
+    position: absolute;
+    left: 110px;
+    top: 0px;
+    z-index: 10;
+  }
+  .so-3-11 {
+    position: absolute;
+    left: 0px;
+    top: 154px;
+    z-index: 5;
+  }
+  .so-3-1 {
+    position: absolute;
+    left: 608px;
+    top: 388px;
+    z-index: 15;
+  }
+  .so-3-0 {
+    position: absolute;
+    left: 1036px;
+    top: 558px;
+    z-index: 16;
+  }
+  .so-3-8 {
+    position: absolute;
+    left: 939px;
+    top: 2px;
+    z-index: 8;
+  }
+  .so-3-7 {
+    position: absolute;
+    left: 1191px;
+    top: 77px;
+    z-index: 9;
+  }
+  .so-3-6 {
+    position: absolute;
+    left: 110px;
+    top: 0px;
+    z-index: 10;
+  }
+  .so-3-11 {
+    position: absolute;
+    left: 0px;
+    top: 154px;
+    z-index: 5;
+  }
+  .so-3-1 {
+    position: absolute;
+    left: 608px;
+    top: 388px;
+    z-index: 15;
+  }
+  .so-3-0 {
+    position: absolute;
+    left: 1036px;
+    top: 558px;
+    z-index: 16;
+  }
+  .so-3-8 {
+    position: absolute;
+    left: 939px;
+    top: 2px;
+    z-index: 8;
+  }
+  .so-3-7 {
+    position: absolute;
+    left: 1191px;
+    top: 77px;
+    z-index: 9;
+  }
+  .so-3-14 {
+    position: absolute;
+    left: 429px;
+    top: 194px;
+    z-index: 2;
+  }
+  .so-3-5 {
+    position: absolute;
+    left: 46px;
+    top: 457px;
+    z-index: 11;
+  }
+  .so-3-10 {
+    position: absolute;
+    left: 249px;
+    top: 5px;
+    font-size: 32px;
+    color: rgba(180, 127, 0, 1.00);
+    text-align: left;
+  }
+  .so-3-9 {
+    position: absolute;
+    left: 249px;
+    top: 51px;
+    width: 660px;
+    z-index: 7;
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.7;
+  }
+  .so-3-13 {
+    position: absolute;
+    left: 452px;
+    top: 176px;
+    z-index: 3;
+    font-size: 22px;
+    color: #b47f00;
+  }
+  .so-3-12 {
+    position: absolute;
+    left: 580px;
+    top: 178px;
+    font-size: 25px;
+    color: #b47f00;
+  }
+  .so-3-15 {
+    position: absolute;
+    left: 428px;
+    top: 231px;
+    z-index: 1;
+    font-size: 16px;
+    line-height: 1.7;
+    width: 500px;
+    color: #000000;
+  }
+  .so-3-4 {
+    position: absolute;
+    left: 69px;
+    top: 439px;
+    z-index: 12;
+    font-size: 22px;
+    color: rgba(180, 127, 0, 1.00);
+  }
+  .so-3-3 {
+    position: absolute;
+    left: 196px;
+    top: 440px;
+    z-index: 13;
+    font-size: 25px;
+    color: rgba(180, 127, 0, 1.00);
+  }
+  .so-3-2 {
+    position: absolute;
+    left: 43px;
+    top: 490px;
+    z-index: 14;
+    width: 544px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1.00);
+    line-height: 1.7;
+  }
+}
+.start {
+  position: absolute;
+  left: 1885px;
+  top: 1183px;
+  right: 2371px;
+  bottom: 1510px;
+  width: 807px;
+  height: 486px;
+}
+.shanghai {
+  z-index: 2;
+  position: absolute;
+  left: 2147px;
+  top: 241px;
+  right: 1779px;
+  bottom: 2303px;
+  width: 1137px;
+  height: 635px;
+}
+.aomen {
+  position: absolute;
+  left: 3468px;
+  top: 361px;
+  right: 483px;
+  bottom: 2225px;
+  width: 1112px;
+  height: 593px;
+}
+.gansu {
+  position: absolute;
+  left: 305px;
+  top: 1099px;
+  right: 3635px;
+  bottom: 1327px;
+  width: 1123px;
+  height: 753px;
+}
+.neimeng {
+  z-index: 5;
+  position: absolute;
+  left: 757px;
+  top: 2067px;
+  right: 3174px;
+  bottom: 305px;
+  width: 1132px;
+  height: 807px;
+}
+.jiangxi {
+  z-index: 6;
+  position: absolute;
+  left: 2325px;
+  top: 2204px;
+  right: 1757px;
+  bottom: 189px;
+  width: 981px;
+  height: 786px;
+}
+
+.chongqing {
+  z-index: 7;
+  position: absolute;
+  left: 3624px;
+  top: 2178px;
+  right: 434px;
+  bottom: 225px;
+  width: 1005px;
+  height: 776px;
+}
+
+.jingjinji {
+  z-index: 8;
+  position: absolute;
+  left: 3152px;
+  top: 1152px;
+  right: 535px;
+  bottom: 1234px;
+  width: 1376px;
+  height: 793px;
+}
+</style>

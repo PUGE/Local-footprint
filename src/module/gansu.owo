@@ -1,0 +1,144 @@
+<template lang="pug">
+.gansu
+  img.soulless.so-4-1.item-1(width="105", height="84", src="@|home-4-1.png|")
+  img.soulless.so-4-13.item-13(width="393", height="307", src="@|home-4-13.png|")
+  img.soulless.so-4-11.item-11(width="114", height="33", src="@|home-4-11.png|")
+  img.soulless.so-4-7.item-7(width="114", height="33", src="@|home-4-7.png|")
+  img.soulless.so-4-12.item-12(width="393", height="307", src="@|home-4-12.png|")
+  img.soulless.so-4-2.item-2(width="59", height="46", src="@|home-4-2.png|")
+  img.soulless.so-4-3.item-3(width="207", height="194", src="@|home-4-3.png|")
+  img.soulless.so-4-0.button(width="180", height="99", src="@|home-4-0.png|")
+  p.soulless.so-4-5.item-5 甘肃考察
+  p.soulless.so-4-4.text 初秋的河西走廊，金风送爽，瓜果飘香，祁连雪山和沙漠绿洲相映成辉。<br>8月19日至22日，习近平在甘肃深入文物保护单位、农村、学校、草场林场、革命纪念馆、防洪工程、文化企业等，就经济社会发展和“不忘初心、牢记使命”主题教育情况进行考察调研。
+  p.soulless.so-4-10.item-10 8月19日
+  p.soulless.so-4-15.item-15 同莫高窟游客握手问好
+  p.soulless.so-4-14.text &emsp;&emsp;上午，习近平从北京乘机抵达酒泉市所辖敦煌市，即前往莫高窟考察了解莫高窟历史沿革和文物保护研究情况，并走进洞窟察看历史悠久的彩塑、壁画。正在参观的游客看到总书记来了，激动地围拢上来，高声欢呼“总书记好！”“习主席好！”习近平向大家亲切招手致意，并不时走上前同大家握手问好，叮嘱大家在游览时注意爱护文物。
+  p.soulless.so-4-6.item-6 8月21日
+  p.soulless.so-4-9.item-9 实地了解“草方格压沙”作业
+  p.soulless.so-4-8.text &emsp;&emsp;上午，习近平乘车前往古浪县八步沙林场。察看林场整体风貌，听取武威市防沙治沙整体情况汇报和八步沙林场“六老汉”三代人治沙造林的感人事迹。几位林场职工正在进行“草方格压沙”作业，习近平走过去，向他们询问作业方法，并拿起一把开沟犁，同他们一起干起来。
+
+</template>
+
+<style lang="less">
+.so-4-1 {
+  position: absolute;
+  left: 98px;
+  top: 45px;
+  z-index: 15;
+}
+.so-4-13 {
+  position: absolute;
+  left: 0px;
+  top: 186px;
+  z-index: 3;
+}
+.so-4-11 {
+  position: absolute;
+  left: 431px;
+  top: 230px;
+  z-index: 5;
+}
+.so-4-7 {
+  position: absolute;
+  left: 21px;
+  top: 518px;
+  z-index: 9;
+}
+.so-4-12 {
+  position: absolute;
+  left: 559px;
+  top: 446px;
+  z-index: 4;
+}
+.so-4-2 {
+  position: absolute;
+  left: 697px;
+  top: 0px;
+  z-index: 14;
+}
+.so-4-3 {
+  position: absolute;
+  left: 873px;
+  top: 21px;
+  z-index: 13;
+}
+.so-4-0 {
+  position: absolute;
+  left: 943px;
+  top: 645px;
+  z-index: 16;
+}
+.so-4-5 {
+  position: absolute;
+  left: 237px;
+  top: 50px;
+  z-index: 11;
+  font-size: 33px;
+  color: #738719;
+}
+.so-4-4 {
+  position: absolute;
+  left: 237px;
+  top: 96px;
+  z-index: 12;
+  width: 675px;
+  height: 81px;
+  font-family: 'FZLTHPro--GB1-4';
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+.so-4-10 {
+  position: absolute;
+  left: 446px;
+  top: 232px;
+  z-index: 6;
+  font-size: 23px;
+  color: #ffffff;
+}
+.so-4-15 {
+  position: absolute;
+  left: 563px;
+  top: 233px;
+  z-index: 1;
+  font-size: 25px;
+  color: #738719;
+}
+.so-4-14 {
+  position: absolute;
+  left: 436px;
+  top: 283px;
+  z-index: 2;
+  width: 511px;
+  height: 145px;
+  font-family: 'FZLTHPro--GB1-4';
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+.so-4-6 {
+  position: absolute;
+  left: 36px;
+  top: 520px;
+  z-index: 10;
+  font-size: 23px;
+  color: #ffffff;
+}
+.so-4-9 {
+  position: absolute;
+  left: 153px;
+  top: 522px;
+  z-index: 7;
+  font-size: 25px;
+  color: #738719;
+}
+.so-4-8 {
+  position: absolute;
+  left: 26px;
+  top: 571px;
+  z-index: 8;
+  width: 514px;
+  height: 113px;
+  font-family: 'FZLTHPro--GB1-4';
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+</style>

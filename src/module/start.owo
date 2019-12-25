@@ -1,0 +1,132 @@
+<template lang="pug">
+.start
+  img.soulless.so-0-2.item-2(width="149", height="333", src="@|home-0-2.png|")
+  img.soulless.so-0-0.item-0(width="195", height="52", src="@|home-0-0.png|")
+  p.soulless.so-0-11.item-11 2019习近平地方考察的温情瞬间
+  p.soulless.so-0-3.text &emsp;&emsp;2019年，习近平7次赴地方考察。走基层、进山林、访社区，在雄安，他向铁路建设者致以亲切的问候；在天津，他为社区志愿者们点赞；在重庆，他看望贫困户；在江西，他与苏区的父老乡亲拉家常；在内蒙古，他和护林员亲切交谈；在甘肃，他同莫高窟游客握手问好；在上海，他关切老人用餐；在澳门，他同市民和师生亲切交流。<br>&emsp;&emsp;这一个个温情瞬间，彰显的是大国领袖“我将无我，不负人民”的为民情怀。
+  img.soulless.so-0-1.item-1(width="95", height="66", src="@|home-0-1.png|")
+  p.soulless.so-0-10.item-10(o-tap="owo.script.home.goTo(3750, 1525)") 京津冀
+  p.soulless.so-0-9.item-9(o-tap="owo.script.home.goTo(4200, 2500)") 重庆
+  p.soulless.so-0-8.item-8(o-tap="owo.script.home.goTo(2725, 2550)") 江西
+  p.soulless.so-0-7.item-7(o-tap="owo.script.home.goTo(1250, 2450)") 内蒙古
+  p.soulless.so-0-6.item-6(o-tap="owo.script.home.goTo(775, 1450)") 甘肃
+  p.soulless.so-0-5.item-5(o-tap="owo.script.home.goTo(1200, 620)") 河南
+  p.soulless.so-0-4.item-4(o-tap="owo.script.home.goTo(2800, 525)") 上海
+</template>
+
+<style lang="less">
+.so-0-2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+}
+.so-0-0 {
+  position: absolute;
+  left: 204px;
+  top: 5px;
+  z-index: 12;
+}
+.so-0-11 {
+  position: absolute;
+  left: 203px;
+  top: 82px;
+  z-index: 1;
+  font-size: 26px;
+  color: rgba(230, 54, 32, 1.00);
+}
+.so-0-3 {
+  position: absolute;
+  left: 202px;
+  top: 138px;
+  z-index: 9;
+  width: 575px;
+  height: 177px;
+  font-family: 'FZLTHPro--GB1-4';
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+.so-0-1 {
+  position: absolute;
+  left: 712px;
+  top: 420px;
+  z-index: 11;
+}
+.so-0-10 {
+  position: absolute;
+  left: 154px;
+  top: 351px;
+  z-index: 2;
+  width: 21px;
+  height: 65px;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1.00);
+}
+.so-0-9 {
+  position: absolute;
+  left: 234px;
+  top: 384px;
+  z-index: 3;
+  width: 20px;
+  height: 43px;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1.00);
+}
+.so-0-8 {
+  position: absolute;
+  left: 304px;
+  top: 375px;
+  z-index: 4;
+  width: 21px;
+  height: 43px;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1.00);
+}
+.so-0-7 {
+  position: absolute;
+  left: 402px;
+  top: 379px;
+  z-index: 5;
+  width: 21px;
+  height: 65px;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1.00);
+}
+.so-0-6 {
+  position: absolute;
+  left: 491px;
+  top: 400px;
+  z-index: 6;
+  width: 21px;
+  height: 43px;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1.00);
+}
+.so-0-5 {
+  position: absolute;
+  left: 571px;
+  top: 386px;
+  z-index: 7;
+  width: 21px;
+  height: 43px;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1.00);
+}
+.so-0-4 {
+  position: absolute;
+  left: 641px;
+  top: 412px;
+  z-index: 8;
+  width: 21px;
+  height: 43px;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1.00);
+}
+</style>

@@ -1,0 +1,121 @@
+<template lang="pug">
+.chongqing
+  img.soulless.so-7-1.item-1(width="128", height="102", src="@|home-7-1.png|")
+  img.soulless.so-7-12.item-12(width="85", height="99", src="@|home-7-12.png|")
+  img.soulless.so-7-9.item-9(width="128", height="17", src="@|home-7-9.png|")
+  img.soulless.so-7-8.item-8(width="454", height="303", src="@|home-7-8.png|")
+  img.soulless.so-7-7.item-7(width="457", height="250", src="@|home-7-7.png|")
+  img.soulless.so-7-3.item-3(width="128", height="17", src="@|home-7-3.png|")
+  img.soulless.so-7-0.item-0(width="180", height="99", src="@|home-7-0.png|")
+  p.soulless.so-7-4.text &emsp;&emsp;习近平来到贫困户谭登周家，从屋外看到屋内，详细询问老两口生活和身体状况。习近平指出，脱贫攻坚明年就要收官，要把工作往深里做、往实里做，重点做好那些尚未脱贫或因病因伤返贫群众的工作，加快完善低保、医保、医疗救助等相关扶持和保障措施，用制度体系保障贫困群众真脱贫、稳脱贫。
+  p.soulless.so-7-11.text &emsp;&emsp;习近平来到中益乡小学。学校操场上，小学生们正在开展课外文体活动。看到总书记来了，学生们围拢过来，纷纷问习爷爷好，总书记高兴地同大家交谈，询问他们学习和生活情况。习近平嘱咐学校和老师既要当好老师，又要当好临时家长，把学生教好、管好。要把安全放在第一位，确保学生在学校学、住、吃都安全，让家长们放心。
+  p.soulless.so-7-10.text 山城四月，春风和煦，山水透绿，一派生机勃勃。<br>4月15日，习近平深入石柱土家族自治县的学校、农村，实地了解脱贫攻坚工作情况。
+  p.soulless.so-7-14.item-14 重庆考察
+  p.soulless.so-7-6.item-6 4月15日
+  p.soulless.so-7-2.item-2 4月15日
+  p.soulless.so-7-5.item-5 看望贫困户谭登周一家
+</template>
+
+<style lang="less">
+.so-7-1 {
+  position: absolute;
+  left: 101px;
+  top: 7px;
+  z-index: 17;
+}
+.so-7-12 {
+  position: absolute;
+  left: 869px;
+  top: 6px;
+  z-index: 6;
+}
+.so-7-9 {
+  position: absolute;
+  left: 483px;
+  top: 182px;
+  z-index: 9;
+}
+.so-7-8 {
+  position: absolute;
+  left: 0px;
+  top: 136px;
+  z-index: 10;
+}
+.so-7-7 {
+  position: absolute;
+  left: 548px;
+  top: 411px;
+  z-index: 11;
+}
+.so-7-3 {
+  position: absolute;
+  left: 73px;
+  top: 484px;
+  z-index: 15;
+}
+.so-7-4 {
+  position: absolute;
+  left: 73px;
+  top: 517px;
+  z-index: 14;
+  width: 447px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+.so-7-11 {
+  position: absolute;
+  left: 482px;
+  top: 215px;
+  z-index: 7;
+  width: 496px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+.so-7-10 {
+  position: absolute;
+  left: 251px;
+  top: 73px;
+  z-index: 8;
+  width: 610px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+.so-7-14 {
+  position: absolute;
+  left: 253px;
+  top: 21px;
+  z-index: 4;
+  font-size: 33px;
+  color: rgba(227, 91, 37, 1.00);
+}
+.so-7-6 {
+  position: absolute;
+  left: 506px;
+  top: 165px;
+  z-index: 12;
+  font-size: 22px;
+  color: rgba(227, 91, 37, 1.00);
+}
+.so-7-2 {
+  position: absolute;
+  left: 96px;
+  top: 467px;
+  z-index: 16;
+  font-size: 22px;
+  color: rgba(227, 91, 37, 1.00);
+}
+.so-7-5 {
+  position: absolute;
+  left: 218px;
+  top: 470px;
+  z-index: 13;
+  font-size: 25px;
+  color: rgba(227, 91, 37, 1.00);
+}
+.so-7-0 {
+  position: absolute;
+  left: 509px;
+  top: 677px;
+  z-index: 18;
+}
+</style>

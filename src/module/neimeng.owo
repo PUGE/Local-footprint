@@ -1,0 +1,135 @@
+<template lang="pug">
+.neimeng
+  img.soulless.so-5-3.item-3(width="105", height="84", src="@|home-5-3.png|")
+  img.soulless.so-5-2.item-2(width="234", height="86", src="@|home-5-2.png|")
+  img.soulless.so-5-1.item-1(width="95", height="67", src="@|home-5-1.png|")
+  img.soulless.so-5-13.item-13(width="128", height="17", src="@|home-5-13.png|")
+  img.soulless.so-5-12.item-12(width="407", height="247", src="@|home-5-12.png|")
+  img.soulless.so-5-11.item-11(width="471", height="305", src="@|home-5-11.png|")
+  img.soulless.so-5-7.item-7(width="127", height="17", src="@|home-5-7.png|")
+  p.soulless.so-5-5.item-5 内蒙古考察
+  p.soulless.so-5-4.text 盛夏时节的内蒙古，蓝天白云，水草丰茂。<br>7月15日至16日，习近平深入社区、林场、农村、高校、机关单位，看望慰问各族干部群众，就经济社会发展、生态文明建设进行考察调研，实地指导开展“不忘初心、牢记使命”主题教育。
+  p.soulless.so-5-10.item-10 7月15日
+  p.soulless.so-5-15.item-15 深入林场同护林员交流
+  p.soulless.so-5-14.text 15日下午，习近平来到赤峰市喀喇沁旗马鞍山林场，听取当地生态文明建设和马鞍山林场造林护林工作情况汇报。顶着烈日，沿着崎岖的护林小道，习近平走进林区，察看林木长势，同正在劳作的护林员们交流，了解他们的工作、生活、家庭情况。<br>
+  p.soulless.so-5-6.item-6 7月15日
+  p.soulless.so-5-9.item-9 到马鞍山村实地了解乡亲们的生产生活情况
+  p.soulless.so-5-8.text &emsp;&emsp;下午，习近平走进四世同堂的“多民族之家”村民张国利家。张国利的母亲今年86岁，精神矍铄。总书记拉着她的手，亲切向她问好。习近平察看了院落、客厅、卧室、厨房、厕所等情况。习近平指出，乡村振兴了，环境变好了，乡村生活也越来越好了。要继续完善农村公共基础设施，改善农村人居环境，重点做好垃圾污水治理、厕所革命、村容村貌提升，把乡村建设得更加美丽。
+</template>
+
+<style lang="less">
+.so-5-3 {
+  position: absolute;
+  left: 17px;
+  top: 0px;
+  z-index: 13;
+}
+.so-5-2 {
+  position: absolute;
+  left: 859px;
+  top: 127px;
+  z-index: 14;
+}
+.so-5-1 {
+  position: absolute;
+  left: 974px;
+  top: 81px;
+  z-index: 15;
+}
+.so-5-13 {
+  position: absolute;
+  left: 424px;
+  top: 211px;
+  z-index: 3;
+}
+.so-5-12 {
+  position: absolute;
+  left: 0px;
+  top: 154px;
+  z-index: 4;
+}
+.so-5-11 {
+  position: absolute;
+  left: 507px;
+  top: 409px;
+  z-index: 5;
+}
+.so-5-7 {
+  position: absolute;
+  left: 2px;
+  top: 443px;
+  z-index: 9;
+}
+.so-5-5 {
+  position: absolute;
+  left: 158px;
+  top: 5px;
+  font-size: 33px;
+  color: rgba(230, 54, 32, 1.00);
+}
+.so-5-4 {
+  position: absolute;
+  left: 156px;
+  top: 51px;
+  z-index: 12;
+  width: 697px;
+  height: 81px;
+  font-family: 'FZLTHPro--GB1-4';
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+.so-5-10 {
+  position: absolute;
+  left: 448px;
+  top: 192px;
+  z-index: 6;
+  font-size: 22px;
+  color: rgba(230, 54, 32, 1.00);
+}
+.so-5-15 {
+  position: absolute;
+  left: 569px;
+  top: 193px;
+  z-index: 1;
+  font-size: 25px;
+  color: rgba(230, 54, 32, 1.00);
+}
+.so-5-14 {
+  position: absolute;
+  left: 424px;
+  top: 243px;
+  z-index: 2;
+  width: 448px;
+  height: 113px;
+  font-family: 'FZLTHPro--GB1-4';
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+.so-5-6 {
+  position: absolute;
+  left: 26px;
+  top: 424px;
+  z-index: 10;
+  font-size: 22px;
+  color: rgba(230, 54, 32, 1.00);
+}
+.so-5-9 {
+  position: absolute;
+  left: 3px;
+  top: 472px;
+  z-index: 7;
+  font-size: 25px;
+  color: rgba(230, 54, 32, 1.00);
+}
+.so-5-8 {
+  position: absolute;
+  left: 2px;
+  top: 515px;
+  z-index: 8;
+  width: 464px;
+  height: 177px;
+  font-family: 'FZLTHPro--GB1-4';
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1.00);
+}
+</style>
