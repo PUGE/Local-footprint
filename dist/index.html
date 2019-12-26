@@ -22,7 +22,7 @@
   <meta name="x5-page-mode" content="app" />
 
   <!-- 页面主样式文件 -->
-  <link charset="utf-8" rel="stylesheet" href="./static/css/owo.main.s82z1k8o26b.css">
+  <link charset="utf-8" rel="stylesheet" href="./static/css/owo.main.chp4wxkv4fi.css">
 
   <!-- 附属css文件 -->
   <link rel="stylesheet" href="./static/css/main.css" charset="utf-8">
@@ -41,13 +41,13 @@
       <p class="soulless so-0-3 text">  2019年，习近平7次赴地方考察。走基层、进山林、访社区，在雄安，他向铁路建设者致以亲切的问候；在天津，他为社区志愿者们点赞；在重庆，他看望贫困户；在江西，他与苏区的父老乡亲拉家常；在内蒙古，他和护林员亲切交谈；在甘肃，他同莫高窟游客握手问好；在上海，他关切老人用餐；在澳门，他同市民和师生亲切交流。<br>  这一个个温情瞬间，彰显的是大国领袖“我将无我，不负人民”的为民情怀。</p>
       <img class="home-line" src="./static/resource/home-line.png">
       <img class="soulless so-0-1 item-1 button" width="95" height="66" src="./static/resource/home-0-1.png" o-tap="owo.script.home.goTo('jingjinji')">
-      <p class="soulless so-0-10 item-10 button" o-tap="owo.script.home.goTo('jingjinji')">京津冀</p>
-      <p class="soulless so-0-9 item-9 button" o-tap="owo.script.home.goTo('chongqing')">重庆</p>
-      <p class="soulless so-0-8 item-8 button" o-tap="owo.script.home.goTo('jiangxi')">江西</p>
-      <p class="soulless so-0-7 item-7 button" o-tap="owo.script.home.goTo('neimeng')">内蒙古</p>
-      <p class="soulless so-0-6 item-6 button" o-tap="owo.script.home.goTo('gansu')">甘肃</p>
-      <p class="soulless so-0-5 item-5 button" o-tap="owo.script.home.goTo('henan')">河南</p>
-      <p class="soulless so-0-4 item-4 button" o-tap="owo.script.home.goTo('shanghai')">上海</p>
+      <p class="soulless so-0-10 item-10 button" o-tap="owo.script.home.goTo('jingjinji', true)">京津冀</p>
+      <p class="soulless so-0-9 item-9 button" o-tap="owo.script.home.goTo('chongqing', true)">重庆</p>
+      <p class="soulless so-0-8 item-8 button" o-tap="owo.script.home.goTo('jiangxi', true)">江西</p>
+      <p class="soulless so-0-7 item-7 button" o-tap="owo.script.home.goTo('neimeng', true)">内蒙古</p>
+      <p class="soulless so-0-6 item-6 button" o-tap="owo.script.home.goTo('gansu', true)">甘肃</p>
+      <p class="soulless so-0-5 item-5 button" o-tap="owo.script.home.goTo('henan', true)">河南</p>
+      <p class="soulless so-0-4 item-4 button" o-tap="owo.script.home.goTo('shanghai', true)">上海</p>
       <p class="item-3 button" o-tap="owo.script.home.goTo('aomen')">澳门</p>
     </div>
     <div class="henan">
@@ -101,7 +101,6 @@
       <img class="soulless so-4-11 item-11" width="114" height="33" src="./static/resource/home-4-11.png">
       <img class="soulless so-4-7 item-7" width="114" height="33" src="./static/resource/home-4-7.png">
       <img class="soulless so-4-12 item-12" width="393" height="307" src="./static/resource/home-4-12.png">
-      <img class="soulless so-4-2 item-2" width="59" height="46" src="./static/resource/home-4-2.png">
       <img class="soulless so-4-3 item-3" width="207" height="194" src="./static/resource/home-4-3.png">
       <img class="soulless so-4-0 button owo-hover-float" width="180" height="99" src="./static/resource/home-4-0.png" o-tap="owo.script.home.goTo('henan')">
       <p class="soulless so-4-5 item-5">甘肃考察</p>
@@ -185,23 +184,25 @@
     <div class="bottom-menu">
       <div class="line"></div>
       <div class="menu-box">
-        <div class="item item-home" o-tap="owo.script.home.goTo('home')">首页</div>
-        <div class="item item-jingjinji" o-tap="owo.script.home.goTo('jingjinji')">京津冀</div>
-        <div class="item item-chongqing" o-tap="owo.script.home.goTo('chongqing')">重庆</div>
-        <div class="item item-jiangxi" o-tap="owo.script.home.goTo('jiangxi')">江西</div>
-        <div class="item item-neimeng" o-tap="owo.script.home.goTo('neimeng')">内蒙古</div>
-        <div class="item item-gansu" o-tap="owo.script.home.goTo('gansu')">甘肃</div>
-        <div class="item item-henan" o-tap="owo.script.home.goTo('henan')">河南</div>
-        <div class="item item-shanghai" o-tap="owo.script.home.goTo('shanghai')">上海</div>
-        <div class="item item-aomen" o-tap="owo.script.home.goTo('aomen')">澳门</div>
+        <div class="item item-home" o-tap="owo.script.home.goTo('home', true)">首页</div>
+        <div class="item item-jingjinji" o-tap="owo.script.home.goTo('jingjinji', true)">京津冀</div>
+        <div class="item item-chongqing" o-tap="owo.script.home.goTo('chongqing', true)">重庆</div>
+        <div class="item item-jiangxi" o-tap="owo.script.home.goTo('jiangxi', true)">江西</div>
+        <div class="item item-neimeng" o-tap="owo.script.home.goTo('neimeng', true)">内蒙古</div>
+        <div class="item item-gansu" o-tap="owo.script.home.goTo('gansu', true)">甘肃</div>
+        <div class="item item-henan" o-tap="owo.script.home.goTo('henan', true)">河南</div>
+        <div class="item item-shanghai" o-tap="owo.script.home.goTo('shanghai', true)">上海</div>
+        <div class="item item-aomen" o-tap="owo.script.home.goTo('aomen', true)">澳门</div>
       </div>
     </div>
     <div class="text-box">
-      <img class="soulless so-8-14 item-14 animation-item" width="38" height="36" src="./static/resource/home-8-14.png">
+      <img class="soulless so-8-14 item-14 animation-item owo-animation-turn" width="38" height="36" src="./static/resource/home-8-14.png">
       <img class="animation-item animation-item-2" src="./static/resource/animation-2.png">
       <img class="animation-item animation-item-3" src="./static/resource/animation-3.png">
       <img class="animation-item animation-item-4" src="./static/resource/animation-4.png">
+      <img class="soulless so-4-2 animation-item-5" width="59" height="46" src="./static/resource/home-4-2.png">
       <img class="animation-item animation-item-6" src="./static/resource/animation-6.png">
+      <img class="animation-item animation-item-7" src="./static/resource/aomen.png">
     </div>
   </div>
 
@@ -210,7 +211,7 @@
   <script src="http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js" type="text/javascript" charset="UTF-8"></script>
   <script src="./static/js/main.js" type="text/javascript" charset="UTF-8"></script><!-- 框架script代码 -->
   <!-- 框架script文件 -->
-  <script src="./static/js/owo.main.s82z1k8o26b.js" type="text/javascript" charset="UTF-8"></script>
+  <script src="./static/js/owo.main.chp4wxkv4fi.js" type="text/javascript" charset="UTF-8"></script>
   <script>
     /*
   存储每个页面的函数
@@ -220,21 +221,27 @@
     owo.phoneEnter = "null";
     owo.script = {
       "home": {
+        "data": {
+          "showName": "home"
+        },
         "created": function created() {
           // owo.script.home.goTo(1200, 620)
           owo.script.home.goTo('home');
         },
         "goTo": function goTo(name) {
+          var _this = this;
+
+          var nopause = false;
           var cityList = {
-            "home": [2300, 1580],
-            "jingjinji": [3750, 1585],
-            "chongqing": [4140, 2610],
-            "jiangxi": [2725, 2600],
-            "neimeng": [1250, 2450],
-            "gansu": [775, 1490],
-            "henan": [1200, 660],
-            "shanghai": [2650, 580],
-            "aomen": [4050, 625]
+            "home": [2300, 1580, 0],
+            "jingjinji": [3750, 1585, 0],
+            "chongqing": [4140, 2610, 1000],
+            "jiangxi": [2725, 2600, 1000],
+            "neimeng": [1250, 2450, 1000],
+            "gansu": [775, 1490, 1000],
+            "henan": [1200, 660, 1000],
+            "shanghai": [2650, 580, 1000],
+            "aomen": [4050, 625, 400]
           };
 
           if (name === 'home') {
@@ -250,6 +257,11 @@
 
           switch (name) {
             case "jingjinji":
+              if (this.data.showName !== 'home') {
+                nopause = true;
+                break;
+              }
+
               owo.query('.so-8-14')[0].classList.remove('path-one');
               owo.query('.so-8-14')[0].classList.remove('path-two');
               setTimeout(function() {
@@ -258,6 +270,11 @@
               break;
 
             case "chongqing":
+              if (this.data.showName !== 'jingjinji') {
+                nopause = true;
+                break;
+              }
+
               owo.query('.so-8-14')[0].classList.remove('path-one');
               owo.query('.so-8-14')[0].classList.remove('path-two');
               setTimeout(function() {
@@ -266,37 +283,82 @@
               break;
 
             case "jiangxi":
+              if (this.data.showName !== 'chongqing') {
+                nopause = true;
+                break;
+              }
+
               owo.query('.animation-item-2')[0].classList.add('path-three');
               setTimeout(function() {
                 owo.query('.animation-item-2')[0].classList.remove('path-three');
-              }, 4000);
+              }, 2000);
               break;
 
             case "neimeng":
+              if (this.data.showName !== 'jiangxi') {
+                nopause = true;
+                break;
+              }
+
               owo.query('.animation-item-3')[0].classList.add('path-four');
               setTimeout(function() {
                 owo.query('.animation-item-3')[0].classList.remove('path-four');
-              }, 4000);
+              }, 2000);
               break;
 
             case "gansu":
+              if (this.data.showName !== 'neimeng') {
+                nopause = true;
+                break;
+              }
+
               owo.query('.animation-item-4')[0].classList.add('path-five');
               setTimeout(function() {
                 owo.query('.animation-item-4')[0].classList.remove('path-five');
-              }, 6000);
+              }, 2000);
+              break;
+
+            case "henan":
+              if (this.data.showName !== 'gansu') {
+                nopause = true;
+                break;
+              }
+
+              owo.query('.animation-item-5')[0].classList.add('path-six');
+              setTimeout(function() {
+                owo.query('.animation-item-5')[0].classList.remove('path-six');
+              }, 2000);
               break;
 
             case "shanghai":
+              if (this.data.showName !== 'henan') {
+                nopause = true;
+                break;
+              }
+
               owo.query('.animation-item-6')[0].classList.add('path-seven');
               setTimeout(function() {
                 owo.query('.animation-item-6')[0].classList.remove('path-seven');
-              }, 6000);
+              }, 2000);
+              break;
+
+            case "aomen":
+              if (this.data.showName !== 'shanghai') {
+                nopause = true;
+                break;
+              }
+
+              owo.query('.animation-item-7')[0].classList.add('path-eight');
+              setTimeout(function() {
+                owo.query('.animation-item-7')[0].classList.remove('path-eight');
+              }, 2000);
               break;
 
             default:
               break;
           }
 
+          this.data.showName = name;
           var screenInfo = owo.tool.getScreenInfo(); // console.log(screenInfo.clientWidth / 2)
           // 转换为负数
 
@@ -304,9 +366,12 @@
           var y = -Number(cityList[name][1]); // 减去屏幕一半大小
 
           x += screenInfo.clientWidth / 2;
-          y += screenInfo.clientHeight / 2;
-          this.$el.style.left = x + 'px';
-          this.$el.style.top = y + 'px'; // 更换菜单活跃项目
+          y += screenInfo.clientHeight / 2; // console.log(nopause)
+
+          setTimeout(function() {
+            _this.$el.style.left = x + 'px';
+            _this.$el.style.top = y + 'px';
+          }, nopause ? 0 : cityList[name][2]); // 更换菜单活跃项目
 
           owo.tool.each(owo.query('.menu-box .item'), function(item) {
             item.classList.remove('active');

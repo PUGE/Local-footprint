@@ -5,7 +5,6 @@
   img.soulless.so-4-11.item-11(width="114", height="33", src="@|home-4-11.png|")
   img.soulless.so-4-7.item-7(width="114", height="33", src="@|home-4-7.png|")
   img.soulless.so-4-12.item-12(width="393", height="307", src="@|home-4-12.png|")
-  img.soulless.so-4-2.item-2(width="59", height="46", src="@|home-4-2.png|")
   img.soulless.so-4-3.item-3(width="207", height="194", src="@|home-4-3.png|")
   img.soulless.so-4-0.button(width="180", height="99", src="@|home-4-0.png|" o-tap="owo.script.home.goTo('henan')" o-hover="float")
   p.soulless.so-4-5.item-5 甘肃考察

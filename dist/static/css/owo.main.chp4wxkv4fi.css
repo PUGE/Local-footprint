@@ -1505,7 +1505,7 @@ p.text {
     opacity: 1;
   }
 
-  80% {
+  90% {
     opacity: 1;
   }
 
@@ -1521,7 +1521,7 @@ p.text {
     opacity: 1;
   }
 
-  80% {
+  90% {
     opacity: 1;
   }
 
@@ -1535,39 +1535,66 @@ p.text {
   offset-distance: 0%;
 }
 
-.path-one {
-  offset-path: path("M2794,1682c108.78-17.65,213.29-66.35,347-112,128.6-43.9,354.09-50.97,508-105,420.69-147.69,1076.46-11.36,780,369");
-  -webkit-animation: oneAnimation 2s ease-in 0s 1 normal forwards;
-          animation: oneAnimation 2s ease-in 0s 1 normal forwards;
+.so-8-14 {
+  offset-path: path("M4457,1358s62.48,70.05,71,143-44.54,122.95-49,186,16.61,161.77-124,245-318.56,211.63-342,239");
 }
 
 .path-two {
-  offset-path: path("M4426,1837s-67.4,93.79-447,134c-414.75,43.94-551.1,194.43-148,568");
-  -webkit-animation: oneAnimation 2s ease-in 0s 1 normal forwards;
-          animation: oneAnimation 2s ease-in 0s 1 normal forwards;
-}
-
-.path-three {
-  offset-path: path("M3935,2631s462.47,247.98,161,383c-432.6,193.75-808-119-808-119");
   -webkit-animation: oneAnimationHidden 2s ease-in 0s 1 normal forwards;
           animation: oneAnimationHidden 2s ease-in 0s 1 normal forwards;
 }
 
+.path-three {
+  -webkit-animation: oneAnimationHidden 2s ease-in 0s 1 normal forwards;
+          animation: oneAnimationHidden 2s ease-in 0s 1 normal forwards;
+}
+
+.animation-item-2 {
+  offset-path: path("M4533,2223s-88.68-71.73-178-59-270.31,7.7-357-46-459.68-49.13-549,68");
+}
+
 .path-four {
-  offset-path: path("M2241,2400s-163.8,3.04-273,127c-77.46,87.93-178.5,171.27-380,147");
-  -webkit-animation: oneAnimation 2s ease-in 0s 1 normal forwards;
-          animation: oneAnimation 2s ease-in 0s 1 normal forwards;
+  -webkit-animation: oneAnimationHidden 2s ease-in 0s 1 normal forwards;
+          animation: oneAnimationHidden 2s ease-in 0s 1 normal forwards;
+}
+
+.animation-item-3 {
+  offset-path: path("M3254,2203s-57.38,35.91-202,31c-105.99-3.6-364.09-87.62-525-85-237.29,3.86-383.98,34.07-595,154");
+}
+
+.animation-item-4 {
+  offset-path: path("M1696,2170s-131.33,17.15-238-104,0.46-386.37-124-468");
 }
 
 .path-five {
-  offset-path: path("M612,2193s-108.55-236.5,90-317c152.2-61.71,373.96-101.66,447-128,270.41-97.53,407.69-415.51,124-552-218.06-104.92-615.727-324.606-427-551");
-  -webkit-animation: oneAnimation 6s ease-in 0s 1 normal forwards;
-          animation: oneAnimation 6s ease-in 0s 1 normal forwards;
+  -webkit-animation: oneAnimationHidden 2s ease-in 0s 1 normal forwards;
+          animation: oneAnimationHidden 2s ease-in 0s 1 normal forwards;
+}
+
+.animation-item-5 {
+  offset-path: path("M1202,1121s-468.488-1.4-579-205-43.324-419.84,32-497");
+}
+
+.path-six {
+  -webkit-animation: oneAnimationHidden 2s ease-in 0s 1 normal forwards;
+          animation: oneAnimationHidden 2s ease-in 0s 1 normal forwards;
+}
+
+.animation-item-6 {
+  offset-path: path("M1526,346s134.54-32.664,205-89,237.28-104.73,315-92");
 }
 
 .path-seven {
-  offset-path: path("M1688,342s482.63-131.329,691,120c152.28,183.674,331.28,506.859,706,487,396.99-21.04,461.68-360.292,683-234");
-  -webkit-animation: oneAnimation 6s ease-in 0s 1 normal forwards;
-          animation: oneAnimation 6s ease-in 0s 1 normal forwards;
+  -webkit-animation: oneAnimationHidden 2s ease-in 0s 1 normal forwards;
+          animation: oneAnimationHidden 2s ease-in 0s 1 normal forwards;
+}
+
+.animation-item-7 {
+  offset-path: path("M3078,400s70.72,47.055,220-13,479.46-125.277,665-14");
+}
+
+.path-eight {
+  -webkit-animation: oneAnimationHidden 2s ease-in 0s 1 normal forwards;
+          animation: oneAnimationHidden 2s ease-in 0s 1 normal forwards;
 }
 

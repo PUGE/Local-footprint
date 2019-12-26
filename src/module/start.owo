@@ -6,13 +6,13 @@
   p.soulless.so-0-3.text &emsp;&emsp;2019年，习近平7次赴地方考察。走基层、进山林、访社区，在雄安，他向铁路建设者致以亲切的问候；在天津，他为社区志愿者们点赞；在重庆，他看望贫困户；在江西，他与苏区的父老乡亲拉家常；在内蒙古，他和护林员亲切交谈；在甘肃，他同莫高窟游客握手问好；在上海，他关切老人用餐；在澳门，他同市民和师生亲切交流。<br>&emsp;&emsp;这一个个温情瞬间，彰显的是大国领袖“我将无我，不负人民”的为民情怀。
   img.home-line(src="@|home-line.png|")
   img.soulless.so-0-1.item-1.button(width="95", height="66", src="@|home-0-1.png|" o-tap="owo.script.home.goTo('jingjinji')")
-  p.soulless.so-0-10.item-10.button(o-tap="owo.script.home.goTo('jingjinji')") 京津冀
-  p.soulless.so-0-9.item-9.button(o-tap="owo.script.home.goTo('chongqing')") 重庆
-  p.soulless.so-0-8.item-8.button(o-tap="owo.script.home.goTo('jiangxi')") 江西
-  p.soulless.so-0-7.item-7.button(o-tap="owo.script.home.goTo('neimeng')") 内蒙古
-  p.soulless.so-0-6.item-6.button(o-tap="owo.script.home.goTo('gansu')") 甘肃
-  p.soulless.so-0-5.item-5.button(o-tap="owo.script.home.goTo('henan')") 河南
-  p.soulless.so-0-4.item-4.button(o-tap="owo.script.home.goTo('shanghai')") 上海
+  p.soulless.so-0-10.item-10.button(o-tap="owo.script.home.goTo('jingjinji', true)") 京津冀
+  p.soulless.so-0-9.item-9.button(o-tap="owo.script.home.goTo('chongqing', true)") 重庆
+  p.soulless.so-0-8.item-8.button(o-tap="owo.script.home.goTo('jiangxi', true)") 江西
+  p.soulless.so-0-7.item-7.button(o-tap="owo.script.home.goTo('neimeng', true)") 内蒙古
+  p.soulless.so-0-6.item-6.button(o-tap="owo.script.home.goTo('gansu', true)") 甘肃
+  p.soulless.so-0-5.item-5.button(o-tap="owo.script.home.goTo('henan', true)") 河南
+  p.soulless.so-0-4.item-4.button(o-tap="owo.script.home.goTo('shanghai', true)") 上海
   p.item-3.button(o-tap="owo.script.home.goTo('aomen')") 澳门
 </template>
 
