@@ -9,7 +9,7 @@
   p.soulless.so-0-10.item-10.button(o-tap="owo.script.home.goTo('jingjinji')") 京津冀
   p.soulless.so-0-9.item-9.button(o-tap="owo.script.home.goTo('chongqing')") 重庆
   p.soulless.so-0-8.item-8.button(o-tap="owo.script.home.goTo('jiangxi')") 江西
-  p.soulless.so-0-7.item-7.button(o-tap="owo.script.home.goTo('neimenggu')") 内蒙古
+  p.soulless.so-0-7.item-7.button(o-tap="owo.script.home.goTo('neimeng')") 内蒙古
   p.soulless.so-0-6.item-6.button(o-tap="owo.script.home.goTo('gansu')") 甘肃
   p.soulless.so-0-5.item-5.button(o-tap="owo.script.home.goTo('henan')") 河南
   p.soulless.so-0-4.item-4.button(o-tap="owo.script.home.goTo('shanghai')") 上海

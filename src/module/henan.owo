@@ -3,9 +3,8 @@
   img.soulless.so-3-6.item-6(width="105", height="84", src="@|home-3-6.png|")
   img.soulless.so-3-11.item-11(width="387", height="249", src="@|home-3-11.png|")
   img.soulless.so-3-1.item-1(width="393", height="262", src="@|home-3-1.png|")
-  img.soulless.so-3-0.item-0.button(width="180", height="99", src="@|home-3-0.png|" o-tap="owo.script.home.goTo('shanghai')")
+  img.soulless.so-3-0.item-0.button(width="180", height="99", src="@|home-3-0.png|" o-tap="owo.script.home.goTo('shanghai')" o-hover="float")
   img.soulless.so-3-8.item-8(width="127", height="128", src="@|home-3-8.png|")
-  img.soulless.so-3-7.item-7(width="58", height="53", src="@|home-3-7.png|")
   img.soulless.so-3-14.item-14(width="129", height="16", src="@|home-3-14.png|")
   img.soulless.so-3-5.item-5(width="129", height="16", src="@|home-3-5.png|")
   //- 文字内容

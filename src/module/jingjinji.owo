@@ -1,6 +1,6 @@
 <template lang="pug">
 .jingjinji
-  img.soulless.so-8-3.item-3.button(width="180" height="99" src="@|home-8-3.png|" o-tap="owo.script.home.goTo('chongqing')")
+  img.soulless.so-8-3.item-3.button(width="180" height="99" src="@|home-8-3.png|" o-tap="owo.script.home.goTo('chongqing')" o-hover="float")
   
   img.soulless.so-8-13.item-13(width="95", height="94", src="@|home-8-13.png|" o-animation="turn")
   img.soulless.so-8-15.item-15(width="78", height="73", src="@|home-8-15.png|" o-animation="turn")

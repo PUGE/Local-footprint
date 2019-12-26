@@ -1,0 +1,148 @@
+[2019-12-26T09:13:05.667] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-12-26T09:13:05.670] [INFO] default - 程序运行目录: D:\work\地方足迹
+[2019-12-26T09:13:05.670] [INFO] default - 首次启动!
+[2019-12-26T09:13:05.670] [INFO] default - 生成版本号: s82z1k8o26b
+[2019-12-26T09:13:05.704] [INFO] default - 清理资源文件夹: D:\work\地方足迹\dist\static
+[2019-12-26T09:13:05.705] [INFO] default - 文件夹不存在: D:\work\地方足迹\dist\static
+[2019-12-26T09:13:05.705] [INFO] default - 创建文件夹: D:\work\地方足迹\dist\static
+[2019-12-26T09:13:05.705] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-12-26T09:13:05.705] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-12-26T09:13:05.706] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-12-26T09:13:05.707] [INFO] default - 开始处理模块: home
+[2019-12-26T09:13:06.121] [INFO] default - 开始处理模块: start
+[2019-12-26T09:13:06.138] [DEBUG] default - 缓存模板: start./src/module/start.owo
+[2019-12-26T09:13:06.179] [DEBUG] default - 模块start处理用时: 59 毫秒!
+[2019-12-26T09:13:06.180] [INFO] default - 开始处理模块: henan
+[2019-12-26T09:13:06.194] [DEBUG] default - 缓存模板: henan./src/module/henan.owo
+[2019-12-26T09:13:06.208] [DEBUG] default - 模块henan处理用时: 29 毫秒!
+[2019-12-26T09:13:06.208] [INFO] default - 开始处理模块: shanghai
+[2019-12-26T09:13:06.219] [DEBUG] default - 缓存模板: shanghai./src/module/shanghai.owo
+[2019-12-26T09:13:06.226] [DEBUG] default - 模块shanghai处理用时: 18 毫秒!
+[2019-12-26T09:13:06.227] [INFO] default - 开始处理模块: aomen
+[2019-12-26T09:13:06.235] [DEBUG] default - 缓存模板: aomen./src/module/aomen.owo
+[2019-12-26T09:13:06.241] [DEBUG] default - 模块aomen处理用时: 14 毫秒!
+[2019-12-26T09:13:06.241] [INFO] default - 开始处理模块: gansu
+[2019-12-26T09:13:06.254] [DEBUG] default - 缓存模板: gansu./src/module/gansu.owo
+[2019-12-26T09:13:06.265] [DEBUG] default - 模块gansu处理用时: 24 毫秒!
+[2019-12-26T09:13:06.265] [INFO] default - 开始处理模块: neimeng
+[2019-12-26T09:13:06.278] [DEBUG] default - 缓存模板: neimeng./src/module/neimeng.owo
+[2019-12-26T09:13:06.287] [DEBUG] default - 模块neimeng处理用时: 22 毫秒!
+[2019-12-26T09:13:06.287] [INFO] default - 开始处理模块: jiangxi
+[2019-12-26T09:13:06.300] [DEBUG] default - 缓存模板: jiangxi./src/module/jiangxi.owo
+[2019-12-26T09:13:06.308] [DEBUG] default - 模块jiangxi处理用时: 21 毫秒!
+[2019-12-26T09:13:06.308] [INFO] default - 开始处理模块: chongqing
+[2019-12-26T09:13:06.322] [DEBUG] default - 缓存模板: chongqing./src/module/chongqing.owo
+[2019-12-26T09:13:06.330] [DEBUG] default - 模块chongqing处理用时: 22 毫秒!
+[2019-12-26T09:13:06.330] [INFO] default - 开始处理模块: jingjinji
+[2019-12-26T09:13:06.350] [DEBUG] default - 缓存模板: jingjinji./src/module/jingjinji.owo
+[2019-12-26T09:13:06.357] [DEBUG] default - 模块jingjinji处理用时: 27 毫秒!
+[2019-12-26T09:13:06.361] [DEBUG] default - 缓存模板: home./src/page/home.owo
+[2019-12-26T09:13:06.376] [DEBUG] default - 页面home处理用时: 670 毫秒!
+[2019-12-26T09:13:06.378] [INFO] default - 文件夹不存在: D:/work/地方足迹/dist/static/resource
+[2019-12-26T09:13:06.378] [INFO] default - 创建文件夹: D:/work/地方足迹/dist/static/resource
+[2019-12-26T09:13:06.379] [DEBUG] default - 处理资源:  [ 'D:/work/地方足迹/src/resource/bg.jpg',
+  'D:/work/地方足迹/src/resource/item-bg.png' ]
+[2019-12-26T09:13:06.379] [DEBUG] default - 资源目录:  D:/work/地方足迹/dist/static/resource
+[2019-12-26T09:13:06.381] [DEBUG] default - css中的资源处理完毕!
+[2019-12-26T09:13:06.907] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-12-26T09:13:06.985] [INFO] default - 文件夹不存在: D:\work\地方足迹\dist\static\css
+[2019-12-26T09:13:06.986] [INFO] default - 创建文件夹: D:\work\地方足迹\dist\static\css
+[2019-12-26T09:13:06.986] [INFO] default - 开始处理附属css中的资源
+[2019-12-26T09:13:06.986] [INFO] default - 附属css中的资源处理完毕!
+[2019-12-26T09:13:06.986] [INFO] default - 处理字体: {}
+[2019-12-26T09:13:06.993] [INFO] default - 使用postcss处理完毕! 用时: 86 毫秒
+[2019-12-26T09:13:06.993] [INFO] default - 判断css中的外链情况!
+[2019-12-26T09:13:06.993] [DEBUG] default - 发现外链列表: '../resource/bg.jpg','../resource/item-bg.png'
+[2019-12-26T09:13:06.993] [INFO] default - 正在处理script!
+[2019-12-26T09:13:07.499] [INFO] default - 工程中只有一个页面!
+[2019-12-26T09:13:07.500] [INFO] default - js中的资源处理完毕!
+[2019-12-26T09:13:07.501] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-12-26T09:13:07.501] [DEBUG] default - 外部脚本数量: 3
+[2019-12-26T09:13:07.501] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-12-26T09:13:07.501] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-12-26T09:13:07.501] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-12-26T09:13:07.501] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-12-26T09:13:07.501] [DEBUG] default - 处理脚本: main
+[2019-12-26T09:13:07.501] [INFO] default - 读取文件: D:\work\地方足迹\src\main.js
+[2019-12-26T09:13:07.501] [DEBUG] default - 输出scriptData
+[2019-12-26T09:13:07.503] [DEBUG] default - 准备输出html!
+[2019-12-26T09:13:07.506] [DEBUG] default - 忽略文件: D:/work/地方足迹/src/resource/home-2-0.png
+[2019-12-26T09:13:07.506] [DEBUG] default - 忽略文件: D:/work/地方足迹/src/resource/home-2-4.png
+[2019-12-26T09:13:07.506] [DEBUG] default - 忽略文件: D:/work/地方足迹/src/resource/home-2-4.png
+[2019-12-26T09:13:07.507] [DEBUG] default - 处理资源:  [ 'D:/work/地方足迹/src/resource/home-0-2.png',
+  'D:/work/地方足迹/src/resource/home-0-0.png',
+  'D:/work/地方足迹/src/resource/home-line.png',
+  'D:/work/地方足迹/src/resource/home-0-1.png',
+  'D:/work/地方足迹/src/resource/home-3-6.png',
+  'D:/work/地方足迹/src/resource/home-3-11.png',
+  'D:/work/地方足迹/src/resource/home-3-1.png',
+  'D:/work/地方足迹/src/resource/home-3-0.png',
+  'D:/work/地方足迹/src/resource/home-3-8.png',
+  'D:/work/地方足迹/src/resource/home-3-14.png',
+  'D:/work/地方足迹/src/resource/home-3-5.png',
+  'D:/work/地方足迹/src/resource/home-2-11.png',
+  'D:/work/地方足迹/src/resource/home-2-1.png',
+  'D:/work/地方足迹/src/resource/home-2-2.png',
+  'D:/work/地方足迹/src/resource/home-2-0.png',
+  'D:/work/地方足迹/src/resource/home-2-8.png',
+  'D:/work/地方足迹/src/resource/home-2-4.png',
+  'D:/work/地方足迹/src/resource/home-1-0.png',
+  'D:/work/地方足迹/src/resource/home-1-5.png',
+  'D:/work/地方足迹/src/resource/home-1-1.png',
+  'D:/work/地方足迹/src/resource/home-1-2.png',
+  'D:/work/地方足迹/src/resource/home-1-4.png',
+  'D:/work/地方足迹/src/resource/home-4-1.png',
+  'D:/work/地方足迹/src/resource/home-4-13.png',
+  'D:/work/地方足迹/src/resource/home-4-11.png',
+  'D:/work/地方足迹/src/resource/home-4-7.png',
+  'D:/work/地方足迹/src/resource/home-4-12.png',
+  'D:/work/地方足迹/src/resource/home-4-2.png',
+  'D:/work/地方足迹/src/resource/home-4-3.png',
+  'D:/work/地方足迹/src/resource/home-4-0.png',
+  'D:/work/地方足迹/src/resource/home-5-3.png',
+  'D:/work/地方足迹/src/resource/home-5-2.png',
+  'D:/work/地方足迹/src/resource/home-5-1.png',
+  'D:/work/地方足迹/src/resource/home-5-13.png',
+  'D:/work/地方足迹/src/resource/home-5-12.png',
+  'D:/work/地方足迹/src/resource/home-5-11.png',
+  'D:/work/地方足迹/src/resource/home-5-7.png',
+  'D:/work/地方足迹/src/resource/home-6-0.png',
+  'D:/work/地方足迹/src/resource/home-6-1.png',
+  'D:/work/地方足迹/src/resource/home-6-4.png',
+  'D:/work/地方足迹/src/resource/home-6-9.png',
+  'D:/work/地方足迹/src/resource/home-6-12.png',
+  'D:/work/地方足迹/src/resource/home-7-1.png',
+  'D:/work/地方足迹/src/resource/home-7-12.png',
+  'D:/work/地方足迹/src/resource/home-7-9.png',
+  'D:/work/地方足迹/src/resource/home-7-8.png',
+  'D:/work/地方足迹/src/resource/home-7-7.png',
+  'D:/work/地方足迹/src/resource/home-7-3.png',
+  'D:/work/地方足迹/src/resource/home-7-0.png',
+  'D:/work/地方足迹/src/resource/home-8-3.png',
+  'D:/work/地方足迹/src/resource/home-8-13.png',
+  'D:/work/地方足迹/src/resource/home-8-15.png',
+  'D:/work/地方足迹/src/resource/home-8-0.png',
+  'D:/work/地方足迹/src/resource/home-8-6.png',
+  'D:/work/地方足迹/src/resource/home-8-5.png',
+  'D:/work/地方足迹/src/resource/home-8-11.png',
+  'D:/work/地方足迹/src/resource/home-8-10.png',
+  'D:/work/地方足迹/src/resource/home-8-14.png',
+  'D:/work/地方足迹/src/resource/animation-2.png',
+  'D:/work/地方足迹/src/resource/animation-3.png',
+  'D:/work/地方足迹/src/resource/animation-4.png',
+  'D:/work/地方足迹/src/resource/animation-6.png' ]
+[2019-12-26T09:13:07.513] [DEBUG] default - 资源目录:  D:/work/地方足迹/dist/static/resource
+[2019-12-26T09:13:07.515] [DEBUG] default - 开始美化html
+[2019-12-26T09:13:07.557] [INFO] default - 判断html中的外链情况!
+[2019-12-26T09:13:07.557] [DEBUG] default - 发现外链列表: ./static/css/owo.main.s82z1k8o26b.css,./static/css/main.css,http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.css,./static/resource/home-0-2.png,./static/resource/home-0-0.png,./static/resource/home-line.png,./static/resource/home-0-1.png,./static/resource/home-3-6.png,./static/resource/home-3-11.png,./static/resource/home-3-1.png,./static/resource/home-3-0.png,./static/resource/home-3-8.png,./static/resource/home-3-14.png,./static/resource/home-3-5.png,./static/resource/home-2-11.png,./static/resource/home-2-1.png,./static/resource/home-2-2.png,./static/resource/home-2-0.png,./static/resource/home-2-8.png,./static/resource/home-2-4.png,./static/resource/home-1-0.png,./static/resource/home-1-5.png,./static/resource/home-1-1.png,./static/resource/home-1-2.png,./static/resource/home-1-4.png,./static/resource/home-4-1.png,./static/resource/home-4-13.png,./static/resource/home-4-11.png,./static/resource/home-4-7.png,./static/resource/home-4-12.png,./static/resource/home-4-2.png,./static/resource/home-4-3.png,./static/resource/home-4-0.png,./static/resource/home-5-3.png,./static/resource/home-5-2.png,./static/resource/home-5-1.png,./static/resource/home-5-13.png,./static/resource/home-5-12.png,./static/resource/home-5-11.png,./static/resource/home-5-7.png,./static/resource/home-2-0.png,./static/resource/home-6-0.png,./static/resource/home-6-1.png,./static/resource/home-6-4.png,./static/resource/home-6-9.png,./static/resource/home-6-12.png,./static/resource/home-2-4.png,./static/resource/home-2-4.png,./static/resource/home-7-1.png,./static/resource/home-7-12.png,./static/resource/home-7-9.png,./static/resource/home-7-8.png,./static/resource/home-7-7.png,./static/resource/home-7-3.png,./static/resource/home-7-0.png,./static/resource/home-8-3.png,./static/resource/home-8-13.png,./static/resource/home-8-15.png,./static/resource/home-8-0.png,./static/resource/home-8-6.png,./static/resource/home-8-5.png,./static/resource/home-8-11.png,./static/resource/home-8-10.png,./static/resource/home-8-14.png,./static/resource/animation-2.png,./static/resource/animation-3.png,./static/resource/animation-4.png,./static/resource/animation-6.png,http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js,http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js,./static/js/main.js,./static/js/owo.main.s82z1k8o26b.js
+[2019-12-26T09:13:07.558] [INFO] default - 显示外链情况!
+[2019-12-26T09:13:07.561] [INFO] default - 文件夹不存在: D:\work\地方足迹\dist\static\js
+[2019-12-26T09:13:07.561] [INFO] default - 创建文件夹: D:\work\地方足迹\dist\static\js
+[2019-12-26T09:13:07.561] [DEBUG] default - 页面中不包含切换动画!
+[2019-12-26T09:13:07.562] [INFO] default - 编译结束!
+[2019-12-26T09:13:07.593] [INFO] default - 写入文件: D:\work\地方足迹\dist\static\css\owo.main.s82z1k8o26b.css
+[2019-12-26T09:13:07.595] [INFO] default - 读取成功: D:\work\地方足迹\src\main.css
+[2019-12-26T09:13:07.595] [INFO] default - 读取成功: D:\work\地方足迹\src\main.js
+[2019-12-26T09:13:07.595] [INFO] default - 主要逻辑文件写出成功!
+[2019-12-26T09:13:08.040] [INFO] default - 写入文件: D:\work\地方足迹\dist\static\js\main.js
+[2019-12-26T09:13:08.040] [INFO] default - 写入文件: D:\work\地方足迹\dist\static\css\main.css

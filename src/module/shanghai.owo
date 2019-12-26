@@ -3,7 +3,7 @@
   img.soulless.so-2-11.item-11(width="117", height="93", src="@|home-2-11.png|")
   img.soulless.so-2-1.item-1(width="409", height="251", src="@|home-2-1.png|")
   img.soulless.so-2-2.item-2(width="438", height="245", src="@|home-2-2.png|")
-  img.soulless.so-2-0.item-0.button(width="180", height="99", src="@|home-2-0.png|" o-tap="owo.script.home.goTo('aomen')")
+  img.soulless.so-2-0.item-0.button(width="180", height="99", src="@|home-2-0.png|" o-tap="owo.script.home.goTo('aomen')" o-hover="float")
   img.soulless.so-2-8.item-8(width="129", height="16", src="@|home-2-8.png|")
   img.soulless.so-2-4.item-4(width="129", height="16", src="@|home-2-4.png|")
   p.soulless.so-2-13.item-13 上海考察

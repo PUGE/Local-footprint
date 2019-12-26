@@ -3,7 +3,7 @@
   img.soulless.so-1-0.item-0(width="118", height="81", src="@|home-1-0.png|")
   img.soulless.so-1-5.item-5(width="117", height="93", src="@|home-1-5.png|")
   img.soulless.so-1-1.item-1(width="525", height="374", src="@|home-1-1.png|")
-  img.soulless.so-1-2.button(width="180", height="99", src="@|home-1-2.png|" o-tap="owo.script.home.goTo('home')")
+  img.soulless.so-1-2.button(width="180", height="99", src="@|home-1-2.png|" o-tap="owo.script.home.goTo('home')" o-hover="float")
   img.soulless.so-1-4.item-4(width="129", height="16", src="@|home-1-4.png|")
   p.soulless.so-1-7.item-7 澳门
   p.soulless.so-1-6.text &emsp;&emsp;12月19日上午，国家主席习近平位于澳门黑沙环的政府综合服务中心和濠江中学附属英才学校，同澳门市民和师生亲切交流。

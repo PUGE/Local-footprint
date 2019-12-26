@@ -48,6 +48,15 @@
         "shanghai": [2650, 580],
         "aomen": [4050, 625]
       }
+      if (name === 'home') {
+        owo.query('.bottom-menu')[0].classList.remove('show')
+        setTimeout(() => {
+          owo.query('.bottom-menu')[0].style.display = 'none'
+        }, 2000)
+      } else {
+        owo.query('.bottom-menu')[0].style.display = 'block'
+        owo.query('.bottom-menu')[0].classList.add('show')
+      }
       // 轨迹动画
       switch (name) {
         case "jingjinji":
@@ -117,8 +126,8 @@
   width: 5036px;
   height: 3179px;
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 2300px;
+  top: 1580px;
   transition: left 2s, top 2s;
   background-image: url('@|bg.jpg|');
 }
@@ -216,10 +225,14 @@ p.text {
 .bottom-menu {
   position: fixed;
   bottom: 6%;
-  left: 17%;
+  left: -10%;
+  right: 0%;
+  margin: auto;
   width: 760px;
   height: 90px;
   z-index: 99;
+  opacity: 0;
+  transition: opacity 2s;
   .line {
     position: absolute;
     height: 2px;
@@ -271,8 +284,11 @@ p.text {
       top: -25px;
     }
   }
+  
 }
-
+.bottom-menu.show {
+  opacity: 1;
+}
 @keyframes oneAnimation {
   from {
     offset-distance: 0%;
@@ -304,26 +320,26 @@ p.text {
 }
 .path-one {
   offset-path: path("M2794,1682c108.78-17.65,213.29-66.35,347-112,128.6-43.9,354.09-50.97,508-105,420.69-147.69,1076.46-11.36,780,369");
-  animation: oneAnimation 2s ease-in-out 0s 1 normal forwards;
+  animation: oneAnimation 2s ease-in 0s 1 normal forwards;
 }
 .path-two {
   offset-path: path("M4426,1837s-67.4,93.79-447,134c-414.75,43.94-551.1,194.43-148,568");
-  animation: oneAnimation 2s ease-in-out 0s 1 normal forwards;
+  animation: oneAnimation 2s ease-in 0s 1 normal forwards;
 }
 .path-three {
   offset-path: path("M3935,2631s462.47,247.98,161,383c-432.6,193.75-808-119-808-119");
-  animation: oneAnimationHidden 2s ease-in-out 0s 1 normal forwards;
+  animation: oneAnimationHidden 2s ease-in 0s 1 normal forwards;
 }
 .path-four {
   offset-path: path("M2241,2400s-163.8,3.04-273,127c-77.46,87.93-178.5,171.27-380,147");
-  animation: oneAnimation 2s ease-in-out 0s 1 normal forwards;
+  animation: oneAnimation 2s ease-in 0s 1 normal forwards;
 }
 .path-five {
   offset-path: path("M612,2193s-108.55-236.5,90-317c152.2-61.71,373.96-101.66,447-128,270.41-97.53,407.69-415.51,124-552-218.06-104.92-615.727-324.606-427-551");
-  animation: oneAnimation 6s ease-in-out 0s 1 normal forwards;
+  animation: oneAnimation 6s ease-in 0s 1 normal forwards;
 }
 .path-seven {
   offset-path: path("M1688,342s482.63-131.329,691,120c152.28,183.674,331.28,506.859,706,487,396.99-21.04,461.68-360.292,683-234");
-  animation: oneAnimation 6s ease-in-out 0s 1 normal forwards;
+  animation: oneAnimation 6s ease-in 0s 1 normal forwards;
 }
 </style>

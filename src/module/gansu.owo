@@ -7,7 +7,7 @@
   img.soulless.so-4-12.item-12(width="393", height="307", src="@|home-4-12.png|")
   img.soulless.so-4-2.item-2(width="59", height="46", src="@|home-4-2.png|")
   img.soulless.so-4-3.item-3(width="207", height="194", src="@|home-4-3.png|")
-  img.soulless.so-4-0.button(width="180", height="99", src="@|home-4-0.png|" o-tap="owo.script.home.goTo('henan')")
+  img.soulless.so-4-0.button(width="180", height="99", src="@|home-4-0.png|" o-tap="owo.script.home.goTo('henan')" o-hover="float")
   p.soulless.so-4-5.item-5 甘肃考察
   p.soulless.so-4-4.text 初秋的河西走廊，金风送爽，瓜果飘香，祁连雪山和沙漠绿洲相映成辉。<br>8月19日至22日，习近平在甘肃深入文物保护单位、农村、学校、草场林场、革命纪念馆、防洪工程、文化企业等，就经济社会发展和“不忘初心、牢记使命”主题教育情况进行考察调研。
   p.soulless.so-4-10.item-10 8月19日
