@@ -134,7 +134,7 @@ _owo.handleEvent = function (tempDom, moudleScript) {
       // 获取子节点实例
       var childrenDom = tempDom.children[i]
       // 每个子节点均要判断是否为模块
-      const templateName = childrenDom.getAttribute('template')
+      var templateName = childrenDom.getAttribute('template')
       if (templateName) {
         // 如果即将遍历进入模块 设置即将进入的模块为当前模块
         // 获取模块的模块名
